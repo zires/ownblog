@@ -1,0 +1,75 @@
+# Logfile created on Fri Dec 25 00:21:35 +0800 2009 by /
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-25 00:21:48) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (can't convert TagList into String) on line #11 of app/views/users/show.html.erb:
+8:       <% t_tr do %>
+9:         <% t_td(article.title) %>
+10:         <% t_td(article.category_id) %>
+11:         <% t_td(article.tag_list) %>
+12:         <% t_td(article.created_at) %>
+13:       <% end%>
+14:     <% end %>
+
+    app/views/users/show.html.erb:11
+    app/views/users/show.html.erb:8
+    app/views/users/show.html.erb:7:in `each'
+    app/views/users/show.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-25 00:22:17) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (can't convert ActiveSupport::TimeWithZone into String) on line #12 of app/views/users/show.html.erb:
+9:         <% t_td(article.title) %>
+10:         <% t_td(article.category_id) %>
+11:         <% t_td(article.tag_list.to_s) %>
+12:         <% t_td(article.created_at) %>
+13:       <% end%>
+14:     <% end %>
+15:   <% end %>
+
+    app/views/users/show.html.erb:12
+    app/views/users/show.html.erb:8
+    app/views/users/show.html.erb:7:in `each'
+    app/views/users/show.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-25 00:22:38) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+Completed in 328ms (View: 281, DB: 15) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-25 00:23:52) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+Completed in 140ms (View: 93, DB: 32) | 200 OK [http://localhost/users/1]

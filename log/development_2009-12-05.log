@@ -1,0 +1,454 @@
+# Logfile created on Sat Dec 05 12:21:21 +0800 2009 by /
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-05 15:17:38) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (1141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+
+ActionView::TemplateError (undefined local variable or method `share_path' for #<ActionView::Base:0x6885b84>) on line #32 of app/views/blog/_header.html.erb:
+29:   				</script>
+30: 				<ul id="linkmenu">
+31: 					<li class="active_tab" id ="home"><%= link_to "Home",:controller => 'blog',:action => 'index' %></li>
+32: 					<li id ="share"><%= link_to "share",share_path %></li>
+33: 					<li id = "pics"><%= link_to "Pictures",:controller => 'pics',:action => 'index' %></li>
+34: 					<li id = "video"><%= link_to "video",video_path %></li>
+35: 					<li id = "about"><%= link_to "About",about_path %></li>
+
+    app/views/blog/_header.html.erb:32
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/views/layouts/blog.html.erb:23
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-05 15:17:45) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-05 15:18:06) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+
+ActionView::TemplateError (undefined local variable or method `share_path' for #<ActionView::Base:0x65e70e4>) on line #32 of app/views/blog/_header.html.erb:
+29:   				</script>
+30: 				<ul id="linkmenu">
+31: 					<li class="active_tab" id ="home"><%= link_to "Home",:controller => 'blog',:action => 'index' %></li>
+32: 					<li id ="share"><%= link_to "share",share_path %></li>
+33: 					<li id = "pics"><%= link_to "Pictures",:controller => 'pics',:action => 'index' %></li>
+34: 					<li id = "video"><%= link_to "video",video_path %></li>
+35: 					<li id = "about"><%= link_to "About",about_path %></li>
+
+    app/views/blog/_header.html.erb:32
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/views/layouts/blog.html.erb:23
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (453.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-05 15:19:22) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (656.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+
+ActionView::TemplateError (undefined local variable or method `share_path' for #<ActionView::Base:0x6699e38>) on line #32 of app/views/blog/_header.html.erb:
+29:   				</script>
+30: 				<ul id="linkmenu">
+31: 					<li class="active_tab" id ="home"><%= link_to "Home",:controller => 'blog',:action => 'index' %></li>
+32: 					<li id ="share"><%= link_to "share",share_path %></li>
+33: 					<li id = "pics"><%= link_to "Pictures",:controller => 'pics',:action => 'index' %></li>
+34: 					<li id = "video"><%= link_to "video",video_path %></li>
+35: 					<li id = "about"><%= link_to "About",about_path %></li>
+
+    app/views/blog/_header.html.erb:32
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/views/layouts/blog.html.erb:23
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (265.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-05 15:20:07) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+
+ActionView::TemplateError (undefined local variable or method `share_path' for #<ActionView::Base:0x68c5b44>) on line #32 of app/views/blog/_header.html.erb:
+29:   				</script>
+30: 				<ul id="linkmenu">
+31: 					<li class="active_tab" id ="home"><%= link_to "Home",:controller => 'blog',:action => 'index' %></li>
+32: 					<li id ="share"><%= link_to "share",share_path %></li>
+33: 					<li id = "pics"><%= link_to "Pictures",:controller => 'pics',:action => 'index' %></li>
+34: 					<li id = "video"><%= link_to "video",video_path %></li>
+35: 					<li id = "about"><%= link_to "About",about_path %></li>
+
+    app/views/blog/_header.html.erb:32
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/views/layouts/blog.html.erb:23
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (266.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-05 15:20:21) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 187, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-05 15:20:24) [GET]
+Rendering articles/index
+Completed in 375ms (View: 312, DB: 31) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#share (for 127.0.0.1 at 2009-12-05 15:20:25) [GET]
+Rendering template within layouts/blog
+Rendered blog/_share (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/share]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-05 15:20:25) [GET]
+Rendering articles/index
+Completed in 188ms (View: 157, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-05 15:20:28) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 484ms (View: 375, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-05 15:20:30) [GET]
+Rendering articles/index
+Completed in 188ms (View: 156, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2009-12-05 15:20:47) [GET]
+  Parameters: {"id"=>"5"}
+Rendering template within layouts/category
+Rendering categories/show
+Completed in 484ms (View: 453, DB: 0) | 200 OK [http://localhost/categories/5]
+
+
+Processing BlogController#share (for 127.0.0.1 at 2009-12-05 16:17:03) [GET]
+Rendering template within layouts/blog
+Rendered blog/_share (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/share]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-05 16:17:04) [GET]
+Rendering articles/index
+Completed in 265ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-05 16:17:08) [GET]
+
+ActionController::RoutingError (No route matches "/share/new" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-12-05 16:18:10) [GET]
+
+NameError (uninitialized constant SharesController):
+  
+
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-12-05 16:18:36) [GET]
+
+LoadError (Expected E:/zblog/app/controllers/shares_controller.rb to define SharesController):
+  
+
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:19:59) [GET]
+
+ActionView::MissingTemplate (Missing template shares/new.erb in view path app/views):
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:20:11) [GET]
+Rendering shares/new
+Completed in 594ms (View: 578, DB: 0) | 200 OK [http://localhost/share/new]
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:21:07) [GET]
+Rendering shares/new
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://localhost/share/new]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-12-05 16:21:12) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.0>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+
+NameError (uninitialized constant ShareController):
+  
+
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-12-05 16:21:46) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.1>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+
+NameError (uninitialized constant ShareController):
+  
+
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:21:49) [GET]
+Rendering shares/new
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/share/new]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-12-05 16:21:54) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.0>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+
+NameError (uninitialized constant ShareController):
+  
+
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-05 16:24:02) [GET]
+
+ActionController::RoutingError (No route matches "/share/new" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:24:28) [GET]
+Rendering shares/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/shares/new]
+
+
+Processing SharesController#create (for 127.0.0.1 at 2009-12-05 16:24:33) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.0>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+
+ActionView::MissingTemplate (Missing template shares/create.erb in view path app/views):
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:26:06) [GET]
+Rendering shares/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/shares/new]
+
+
+Processing SharesController#create (for 127.0.0.1 at 2009-12-05 16:26:10) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.1>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+
+ActionView::MissingTemplate (Missing template shares/create.erb in view path app/views):
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:26:48) [GET]
+Rendering shares/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/shares/new]
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:26:53) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.0>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+Rendering shares/new
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/shares/new]
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:37:00) [GET]
+Rendering shares/new
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/shares/new]
+
+
+Processing SharesController#create (for 127.0.0.1 at 2009-12-05 16:37:04) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.1>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+
+SyntaxError (E:/zblog/app/models/share.rb:4: syntax error, unexpected tASSOC, expecting kEND
+                    :url => "/uploads/:attachment/:id/:style/:filename"           
+                           ^):
+  app/controllers/shares_controller.rb:12:in `create'
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:37:24) [GET]
+Rendering shares/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/shares/new]
+
+
+Processing SharesController#create (for 127.0.0.1 at 2009-12-05 16:37:29) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.0>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+Rendering shares/show
+
+ActionView::TemplateError (undefined method `stuff_url' for #<Share:0x6919014>) on line #1 of app/views/shares/show.html.erb:
+1: <%= link_to "download", @share.stuff_url %>
+2: <%= link_to "download", @share.stuff_path%>
+
+    app/views/shares/show.html.erb:1
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/shares_controller.rb:14:in `create'
+    app/controllers/shares_controller.rb:13:in `create'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (375.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SharesController#create (for 127.0.0.1 at 2009-12-05 16:38:42) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.1>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+Rendering shares/show
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/shares]
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:41:53) [GET]
+Rendering shares/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/shares/new]
+
+
+Processing SharesController#create (for 127.0.0.1 at 2009-12-05 16:41:55) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+Rendering shares/show
+Completed in 93ms (View: 78, DB: 0) | 200 OK [http://localhost/shares]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-05 16:42:01) [GET]
+
+ActionController::RoutingError (No route matches "/stuffs/original/missing.png" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:42:07) [GET]
+Rendering shares/new
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/shares/new]
+
+
+Processing SharesController#create (for 127.0.0.1 at 2009-12-05 16:42:51) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.2>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+Rendering shares/show
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/shares]
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:44:49) [GET]
+Rendering shares/new
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/shares/new]
+
+
+Processing SharesController#create (for 127.0.0.1 at 2009-12-05 16:45:27) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.0>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+Rendering shares/show
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/shares]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-05 16:45:36) [GET]
+  Parameters: {"1260002728"=>nil}
+
+ActionController::RoutingError (No route matches "/uploads/stuffs//original/nicEdit-9a421d0f121556dc6f9894558d06266b.zip" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing SharesController#new (for 127.0.0.1 at 2009-12-05 16:47:17) [GET]
+Rendering shares/new
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/shares/new]
+
+
+Processing SharesController#create (for 127.0.0.1 at 2009-12-05 16:47:22) [POST]
+  Parameters: {"commit"=>"Submit", "share"=>{"stuff"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3520.1>}, "authenticity_token"=>"IPbeeTw359V4XkwcHpDzdn8whKkgsDTwFZrUWhurKOU="}
+Rendering shares/show
+Completed in 78ms (View: 0, DB: 15) | 200 OK [http://localhost/shares]

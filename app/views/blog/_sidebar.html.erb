@@ -1,0 +1,80 @@
+<%= javascript_include_tag 'jquery.zshuaibin'%>
+<div class="pic">
+	<%= image_tag "face.jpg"%>
+</div>
+<div class="bycate">
+  <ul>
+    <li class = "bgcate"><%= image_tag 'cate.png' %></li>
+  </ul>
+	<ul>
+	<% categories.each do |category| %>
+			<li class="cgname"><%=link_to "#{category.cgname}", category, :popup => true%></li>
+	<% end %>
+	</ul>
+</div>
+<div class="recentarticle">
+  <ul>
+    <li class = "bgra"><%= image_tag 'recentArticle.png'%></li>
+  </ul>
+	<ul>
+	    <% return_lately_article(10) do -%>
+	      <li class="linkarticle"><%=link_to "#{@article.title}", @article, :popup => true %></li>
+	    <% end -%>
+	</ul>
+</div>
+<div class="recentcomments">
+  <ul>
+    <li class = "rtcomm"><%= image_tag 'recentcomments.png'%></li>
+  </ul>
+	<ul>
+	    <% return_lately_comment(10) do -%>
+	      <li class="linkcomment"><%= link_to limitcomment("#{@comment.comment}",30), Article.find(@comment.commentable_id),:popup => true %></li>
+	    <% end -%>
+	</ul>
+</div>
+
+<div class="friendlylink">
+  <ul>
+    <li class = "friend"><%= image_tag 'friendlylink.png'%></li>
+  </ul>
+	<ul>
+	  <li class ="linkfriend"><%=link_to "我的校内","http://wwv.renren.com/xn2.do?iid=310fd65a-ec9f-4350-8033-bd3848ade646",:popup => true %></li>
+	  <li class ="linkfriend"><%=link_to "我的开心网","http://www.kaixin001.com/home/?uid=40144329&t=43",:popup => true %></li>
+	</ul>
+</div>
+
+<div class="music">
+  <ul>
+    <li><%= image_tag 'music.png'%></li>
+  </ul>
+  <ul>
+      <%= javascript_include_tag 'jquery','jquery.jmp3'%>
+      <script type="text/javascript" charset="utf-8">
+        jQuery.noConflict();
+        jQuery(function($){
+          $("#mp3").jmp3({
+            filepath: "../mp3/every_moment_of_my_life.",
+            "backcolor": "",
+		        "forecolor": "#FFFFFF",
+		        "width": "125",
+		        "repeat": "no",
+		        "volume": "50",
+		        "autoplay": "false",
+		        "showdownload": "flase",
+		        "showfilename": "flase",
+          });
+        });
+      </script>
+    <li class = "mymusic">
+      <span id="mp3">mp3</span>
+    </li>
+  </ul>
+</div>
+<div class="rss">
+  <ul>
+    <li><%= image_tag 'rss.png'%></li>
+  </ul>
+  <ul>
+    <li id ="rss1"><% image_link(formatted_articles_url(:rss),"../images/rss1.png",:border => 0,:target => "_blank")%></li>
+  </ul>
+</div>

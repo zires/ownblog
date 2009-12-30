@@ -1,0 +1,6 @@
+<div id ="content">
+  <%= render :partial => 'articles/articles_table',:local => {:articles => @articles} %>
+</div>
+<div id = "sidebar">
+  <%= render :partial => 'blog/sidebar',:locals => {:categories => @categories}%>
+</div>

@@ -1,0 +1,1507 @@
+# Logfile created on Thu Dec 03 16:00:10 +0800 2009 by /
+  [4;36;1mSQL (63.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (234.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (16.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (15.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mCategory Load (31.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (cateable_type = 'Pic') [0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (pic_category_id = 54994850) LIMIT 1[0m
+  [4;36;1mCategory Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (pic_category_id = 5) LIMIT 1[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (pic_category_id = 6) LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (16.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 3) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Load (0.0ms)[0m   [0;1mSELECT * FROM `pics` WHERE (pic_category_id = '5') [0m
+  [4;35;1mCategory Columns (32.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 5) [0m
+  [4;35;1mPic Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `pics`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 4) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 5) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 6) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 7) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 8) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 9) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 10) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 11) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 4) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 5) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 6) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 7) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 8) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 9) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 10) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 11) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Load (0.0ms)[0m   [0;1mSELECT * FROM `pics` WHERE (pic_category_id = '5') [0m
+  [4;35;1mCategory Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 5) [0m
+  [4;35;1mPic Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `pics`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 7) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 5) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 6) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 4) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 8) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 9) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 10) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 11) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (16.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 4) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 5) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 6) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 7) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 8) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 9) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (0.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 10) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPic Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `pics`[0m
+  [4;35;1mPic Load (16.0ms)[0m   [0mSELECT * FROM `pics` WHERE (`pics`.`id` = 11) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` [0m
+  [4;35;1mArticle Load (47.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;36;1mArticle Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;36;1mCategory Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTagging Columns (63.0ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mTag Load (63.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (94.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (47.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (16.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 10[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (16.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (cateable_type = 'Pic') [0m
+  [4;36;1mPic Load (0.0ms)[0m   [0;1mSELECT * FROM `pics` WHERE (pic_category_id = 53407300) LIMIT 1[0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mPic Load (0.0ms)[0m   [0;1mSELECT * FROM `pics` WHERE (pic_category_id = 5) LIMIT 1[0m
+  [4;35;1mPic Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `pics`[0m
+  [4;36;1mPic Load (0.0ms)[0m   [0;1mSELECT * FROM `pics` WHERE (pic_category_id = 6) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPic Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `pics`[0m
+  [4;36;1mPic Load (0.0ms)[0m   [0;1mSELECT * FROM `pics` WHERE (`pics`.`id` = 1) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPic Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `pics`[0m
+  [4;36;1mPic Load (0.0ms)[0m   [0;1mSELECT * FROM `pics` WHERE (`pics`.`id` = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (31.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (16.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 10[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (16.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 10[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 10[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 10[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 10[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 20[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 8) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 13) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 15[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;36;1mArticle Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;36;1mCategory Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;35;1mComment Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;35;1mComment Load (0.0ms)[0m   [0mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 15[0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (16.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 15[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mArticle Load (16.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;36;1mCategory Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;35;1mComment Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (16.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (15.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;35;1mComment Load (0.0ms)[0m   [0mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 15[0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 15[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mArticle Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCategory Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mComment Load (32.0ms)[0m   [0mSELECT * FROM `comments` WHERE (`comments`.commentable_id = 21 AND `comments`.commentable_type = 'Article') ORDER BY created_at ASC[0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mComment Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mComment Create (16.0ms)[0m   [0mINSERT INTO `comments` (`commentable_type`, `updated_at`, `title`, `commentable_id`, `user_id`, `comment`, `created_at`) VALUES('Article', '2009-12-03 10:25:29', 'ajsd', 21, NULL, '第三方接口现状及史蒂夫科技萨科技妇女思考佛送到附近', '2009-12-03 10:25:29')[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` WHERE (`comments`.commentable_id = 21 AND `comments`.commentable_type = 'Article') ORDER BY created_at ASC[0m
+  [4;35;1mComment Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;36;1mCategory Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;35;1mComment Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (15.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;35;1mComment Load (15.0ms)[0m   [0mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 15[0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;36;1mArticle Columns (78.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;36;1mCategory Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTagging Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 15[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 15[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mCategory Load (15.0ms)[0m   [0;1mSELECT * FROM `categories` [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;36;1mCategory Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;35;1mComment Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;35;1mComment Load (0.0ms)[0m   [0mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 15[0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 10[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (16.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 10[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 10[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM `categories` [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 0, 10[0m
+  [4;35;1mArticle Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `articles` [0m
+  [4;35;1mCategory Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 23)) [0m
+  [4;36;1mComment Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `comments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 23) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 22)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 22) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 21)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 21) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 20)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 20) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 19)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 19) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 18) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 2) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 17)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 17) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 15)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 1) [0m
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_type = 'Article') AND (`taggings`.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(`comments`.id) AS count_id FROM `comments` WHERE (commentable_id = 14) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC LIMIT 10[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSELECT * FROM `comments` ORDER BY created_at DESC, created_at ASC LIMIT 10[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 23) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 21) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` ORDER BY created_at DESC[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m

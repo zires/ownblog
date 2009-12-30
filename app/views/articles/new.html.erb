@@ -1,0 +1,31 @@
+<div id="createarticle">
+<h1><%= t 'article.new.title' %></h1>
+<p>
+  <%= error_messages_for  :article %>
+</p>
+<% form_for(:article,:url => articles_path,:html => {:multipart => true}) do |f| -%>
+ 		<p>
+  		<%= f.label :title %>
+  		<%= f.text_field :title%>
+		</p>
+		<p>
+  		<%= label_tag :article %>
+  		<%= f.text_area :article_content ,:class => "mceEditor" %>
+  		</p>
+ 		 	<p>
+ 		 		<%= f.label "标签："%><br/>
+ 		 		<%= f.text_field :tag_list,:size => 30 %>---多个标签以","隔开
+ 		 	</p>
+  		<p>选择分类：<br/>
+  			<%= select_tag("category_id",options_from_collection_for_select(Category.all,"id","cgname")) %>
+			</p>
+			<p>
+			  <%= link_to "新建分类",new_category_path,:popup => true %>
+			</p>
+      
+ <p>
+    <%= submit_tag t('create',:scope =>'article.new') %>
+ </p>
+ <% end -%>
+<%= link_to 'Back', user_path(:id) %>
+</div>

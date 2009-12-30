@@ -1,0 +1,1800 @@
+# Logfile created on Wed Dec 02 01:19:36 +0800 2009 by /
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 16:30:45) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (1141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (203.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (1296.0ms)
+Completed in 3250ms (View: 2828, DB: 281) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 16:30:50) [GET]
+Rendering articles/index
+Completed in 297ms (View: 266, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-02 16:30:58) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (16.0ms)
+Completed in 375ms (View: 250, DB: 47) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 16:30:59) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 532ms (View: 500, DB: 0) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 16:31:00) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-02 16:31:04) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (15.0ms)
+Rendered pics/_index (110.0ms)
+Completed in 157ms (View: 125, DB: 0) | 200 OK [http://localhost/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:31:05) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 438ms (View: 406, DB: 16) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:31:06) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 281ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:31:06) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 265ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:31:06) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 234ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:31:07) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 234ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:31:07) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:31:07) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 219ms (View: 187, DB: 16) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:31:08) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 281ms (View: 250, DB: 15) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:31:08) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 297ms (View: 281, DB: 0) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:31:08) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 453ms (View: 422, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:31:09) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:31:09) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 532ms (View: 407, DB: 0) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:31:10) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 1656ms (View: 1609, DB: 0) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:31:13) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 406ms (View: 313, DB: 62) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:31:13) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 406ms (View: 359, DB: 16) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:31:14) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 687ms (View: 625, DB: 0) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-02 16:31:15) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:31:16) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 578ms (View: 485, DB: 47) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:31:17) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 688ms (View: 641, DB: 0) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:31:18) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 937ms (View: 859, DB: 16) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:31:20) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 1031ms (View: 1000, DB: 0) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 16:31:43) [GET]
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/pics/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-02 16:31:44) [GET]
+
+ActionController::UnknownAction (No action responded to new. Actions: create, destroy, and login):
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#login (for 127.0.0.1 at 2009-12-02 16:31:48) [GET]
+Rendering template within layouts/user
+Rendering sessions/login
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-02 16:31:55) [POST]
+  Parameters: {"commit"=>"登录", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "login"=>"zshuaibin", "password"=>"170523402"}
+Redirected to http://localhost:3000/users/1
+Completed in 141ms (DB: 47) | 302 Found [http://localhost/session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-02 16:31:55) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 16:32:04) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 94ms (View: 47, DB: 0) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 16:32:07) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "pic"=>{"title"=>"", "image_file_url"=>"", "description"=>""}}
+
+ActionView::MissingTemplate (Missing template pics/create.erb in view path app/views):
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 16:32:16) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 203ms (View: 16, DB: 0) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 16:42:12) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 16:42:42) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "pic"=>{"title"=>"张馨予", "description"=>"色女郎", "url_address"=>"http://www.6to23.com/uploadfile/img/uploadfile/200903/zhangxinyum14.jpg"}}
+
+ActionView::MissingTemplate (Missing template pics/create.erb in view path app/views):
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 16:43:37) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 188ms (View: 16, DB: 0) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 16:44:08) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "pic"=>{"image_file"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/RackMultipart.3688.0>, "title"=>"张馨予", "description"=>"色女郎", "url_address"=>""}}
+Redirected to http://localhost:3000/pics/12
+Completed in 359ms (DB: 16) | 302 Found [http://localhost/pics]
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-02 16:44:08) [GET]
+  Parameters: {"id"=>"12"}
+Rendering template within layouts/user
+Rendering pics/show
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/pics/12]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:09) [GET]
+  Parameters: {"id"=>"12"}
+Completed in 391ms (View: 328, DB: 0) | 200 OK [http://localhost/pics/12/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:10) [GET]
+  Parameters: {"id"=>"12"}
+Completed in 609ms (View: 578, DB: 0) | 200 OK [http://localhost/pics/12/avatar.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-02 16:44:34) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (47.0ms)
+Rendered pics/_index (93.0ms)
+Completed in 125ms (View: 78, DB: 15) | 200 OK [http://localhost/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:35) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 281ms (View: 250, DB: 16) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:35) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 250ms (View: 235, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:36) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 250ms (View: 219, DB: 16) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:36) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 297ms (View: 250, DB: 16) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:37) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 234ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:37) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 219ms (View: 187, DB: 16) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:37) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 203ms (View: 187, DB: 0) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:37) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 266ms (View: 234, DB: 16) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:38) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 281ms (View: 265, DB: 0) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:44:38) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 281ms (View: 266, DB: 16) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:38) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:39) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 469ms (View: 406, DB: 31) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:40) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 422ms (View: 390, DB: 0) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:41) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 391ms (View: 375, DB: 0) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:41) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 609ms (View: 562, DB: 0) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:43) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 329ms (View: 297, DB: 16) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:44) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 360ms (View: 328, DB: 0) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:45) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 203ms (View: 172, DB: 16) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:45) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 219ms (View: 188, DB: 0) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:44:45) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 344ms (View: 328, DB: 0) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-02 16:45:20) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering pics/show
+Completed in 31ms (View: 0, DB: 16) | 200 OK [http://localhost/pics/1]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:45:20) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 266ms (View: 234, DB: 16) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:45:20) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 297ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-02 16:46:08) [GET]
+  Parameters: {"id"=>"11"}
+Rendering template within layouts/user
+Rendering pics/show
+Completed in 47ms (View: 16, DB: 15) | 200 OK [http://localhost/pics/11]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:46:08) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 344ms (View: 265, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:46:09) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 421ms (View: 344, DB: 0) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 16:47:21) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (32.0ms)
+Completed in 297ms (View: 220, DB: 46) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 16:47:23) [GET]
+Rendering articles/index
+Completed in 375ms (View: 343, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 16:47:27) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 63ms (View: 16, DB: 0) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 16:48:08) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "pic"=>{"title"=>"张馨予", "description"=>"色女郎", "url_address"=>"http://www.6to23.com/uploadfile/img/uploadfile/200903/zhangxinyum14.jpg"}}
+
+ActionView::MissingTemplate (Missing template pics/create.erb in view path app/views):
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 16:48:27) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "pic"=>{"title"=>"张馨予", "description"=>"色女郎", "url_address"=>"http://www.6to23.com/uploadfile/img/uploadfile/200903/zhangxinyum14.jpg"}}
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 94ms (View: 16, DB: 15) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 16:51:16) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 62ms (View: 0, DB: 0) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 16:51:17) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "pic"=>{"title"=>"", "description"=>"", "url_address"=>""}}
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 94ms (View: 0, DB: 16) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 16:51:31) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 78ms (View: 16, DB: 16) | 200 OK [http://localhost/pics/new]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 16:52:05) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (344.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (31.0ms)
+Completed in 516ms (View: 469, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 16:52:07) [GET]
+Rendering articles/index
+Completed in 219ms (View: 157, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-02 16:52:46) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (141.0ms)
+Completed in 187ms (View: 156, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 16:52:47) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 16:52:48) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 297ms (View: 266, DB: 16) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-02 16:52:49) [GET]
+  Parameters: {"category_id"=>"6"}
+Rendered blog/_header (47.0ms)
+Rendered pics/_index (78.0ms)
+Completed in 109ms (View: 63, DB: 15) | 200 OK [http://localhost/6]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 16:52:49) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 359ms (View: 312, DB: 0) | 200 OK [http://localhost/pics/3/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 16:52:50) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 250ms (View: 219, DB: 15) | 200 OK [http://localhost/pics/3/avatar.jpg]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 16:56:31) [GET]
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/pics/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-02 16:56:31) [GET]
+
+ActionController::UnknownAction (No action responded to new. Actions: create, destroy, and login):
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#login (for 127.0.0.1 at 2009-12-02 16:56:44) [GET]
+Rendering template within layouts/user
+Rendering sessions/login
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-02 16:57:05) [POST]
+  Parameters: {"commit"=>"登录", "authenticity_token"=>"sTXg6k3X1qJZF3BxuSeH9m4m1/DX7betyA59gPy0M9Q=", "login"=>"zshuaibin", "password"=>"170523402"}
+Redirected to http://localhost:3000/users/1
+Completed in 46ms (DB: 0) | 302 Found [http://localhost/session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-02 16:57:05) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 16:58:24) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 78ms (View: 16, DB: 15) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 16:59:17) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"sTXg6k3X1qJZF3BxuSeH9m4m1/DX7betyA59gPy0M9Q=", "pic"=>{"title"=>"大个", "description"=>"大法官大法官奋斗", "url_address"=>"http://www.y8bbs.com/y8attachments/month_0911/091106002637f9c1bfedc144c7.jpg"}}
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 78ms (View: 0, DB: 32) | 200 OK [http://localhost/pics]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 17:04:17) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (234.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (203.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (234.0ms)
+Completed in 750ms (View: 688, DB: 31) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 17:04:19) [GET]
+Rendering articles/index
+Completed in 266ms (View: 234, DB: 16) | 200 OK [http://localhost/articles.rss]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-02 17:04:19) [GET]
+  Parameters: {"id"=>"23"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (15.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comment_form (16.0ms)
+Completed in 547ms (View: 485, DB: 15) | 200 OK [http://localhost/articles/23]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 17:42:59) [GET]
+Rendering articles/index
+Completed in 438ms (View: 391, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 17:43:57) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "pic"=>{"title"=>"", "description"=>"", "url_address"=>""}}
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 109ms (View: 0, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 17:44:07) [POST]
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 78ms (View: 16, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 17:44:30) [POST]
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 78ms (View: 15, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 17:44:37) [POST]
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 62ms (View: 0, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-02 17:44:52) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (32.0ms)
+Completed in 156ms (View: 62, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 17:44:59) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 78ms (View: 15, DB: 0) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 17:45:09) [POST]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 78ms (View: 15, DB: 16) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 17:45:27) [POST]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 63ms (View: 16, DB: 16) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 19:24:08) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 281ms (View: 47, DB: 31) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 19:24:15) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "pic"=>{"title"=>"张馨予", "description"=>"色女郎", "url_address"=>"http://www.6to23.com/uploadfile/img/uploadfile/200903/zhangxinyum14.jpg"}}
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 62ms (View: 0, DB: 15) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-02 19:38:10) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (62.0ms)
+Completed in 172ms (View: 78, DB: 16) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 19:38:10) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 312ms (View: 281, DB: 16) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 19:38:11) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 266ms (View: 234, DB: 16) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-02 19:38:12) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (47.0ms)
+Rendered pics/_index (125.0ms)
+Completed in 172ms (View: 140, DB: 0) | 200 OK [http://localhost/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:38:13) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 594ms (View: 360, DB: 0) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:38:13) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 281ms (View: 250, DB: 16) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:38:14) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 250ms (View: 235, DB: 0) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:38:14) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:38:14) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 234ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:38:15) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:38:15) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 203ms (View: 187, DB: 0) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:38:15) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 250ms (View: 219, DB: 15) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:38:16) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 296ms (View: 281, DB: 0) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:38:16) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 281ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:38:16) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:38:17) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 656ms (View: 484, DB: 0) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:38:19) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 250ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:38:20) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 688ms (View: 594, DB: 0) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:38:21) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 313ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:38:22) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 672ms (View: 547, DB: 15) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-02 19:38:23) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:38:23) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 360ms (View: 313, DB: 0) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:38:23) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 438ms (View: 407, DB: 15) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:38:24) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 859ms (View: 812, DB: 0) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:38:26) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 516ms (View: 500, DB: 0) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-02 19:39:10) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (47.0ms)
+Rendered pics/_index (125.0ms)
+Completed in 156ms (View: 110, DB: 15) | 200 OK [http://localhost/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:39:12) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 266ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:39:12) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 265ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:39:13) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 234ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:39:13) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 313ms (View: 282, DB: 15) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:39:13) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 281ms (View: 234, DB: 16) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:39:14) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 953ms (View: 485, DB: 16) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:39:15) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 281ms (View: 235, DB: 0) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:39:15) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 375ms (View: 344, DB: 0) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:39:16) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 344ms (View: 312, DB: 0) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:39:17) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 281ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:39:17) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 250ms (View: 219, DB: 32) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:39:17) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 234ms (View: 187, DB: 0) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:39:18) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 484ms (View: 406, DB: 0) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:39:19) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 313ms (View: 281, DB: 0) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:39:20) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 594ms (View: 531, DB: 16) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:39:21) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 406ms (View: 359, DB: 16) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:39:22) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 750ms (View: 687, DB: 0) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:39:23) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 547ms (View: 515, DB: 0) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:39:24) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 391ms (View: 375, DB: 0) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:39:24) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 1141ms (View: 1110, DB: 15) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-02 19:40:12) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (78.0ms)
+Rendered pics/_index (156.0ms)
+Completed in 187ms (View: 156, DB: 16) | 200 OK [http://localhost/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:40:14) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 297ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:40:14) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:40:14) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 234ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:40:15) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 203ms (View: 187, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:40:15) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 219ms (View: 187, DB: 16) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:40:15) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 203ms (View: 187, DB: 0) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:40:16) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 219ms (View: 188, DB: 0) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:40:16) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 266ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:40:16) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 297ms (View: 265, DB: 16) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:40:17) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 281ms (View: 265, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:40:17) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 282ms (View: 250, DB: 16) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:40:18) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 375ms (View: 343, DB: 0) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:40:19) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 500ms (View: 406, DB: 0) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:40:20) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 313ms (View: 250, DB: 16) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:40:22) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 406ms (View: 391, DB: 47) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:40:22) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 500ms (View: 391, DB: 31) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:40:23) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 234ms (View: 203, DB: 16) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:40:24) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 688ms (View: 641, DB: 0) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:40:25) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 875ms (View: 719, DB: 46) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:40:26) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 547ms (View: 516, DB: 15) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 19:43:21) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+
+ActionView::TemplateError (create_url_pic_url failed to generate from {:action=>"create_url", :controller=>"pics"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["pics", :id, "create_url"] - are they all satisfied?) on line #20 of app/views/pics/new.html.erb:
+17:     <%= f.submit "Create" %>
+18:   </p>  
+19: <% end -%>
+20: <% form_for :pic, :url => create_url_pic_path, :html => { :multipart => true} do |f| -%>
+21:   <p>
+22:     <%= f.label :title %>
+23:     <%= f.text_field :title%>
+
+    (eval):16:in `create_url_pic_path'
+    app/views/pics/new.html.erb:20
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 19:48:28) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 79ms (View: 16, DB: 16) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 19:48:53) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 19:48:58) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "pic"=>{"title"=>"张馨予", "description"=>"色女郎", "url_address"=>"http://www.6to23.com/uploadfile/img/uploadfile/200903/zhangxinyum14.jpg"}}
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 62ms (View: 0, DB: 16) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 19:50:07) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 78ms (View: 31, DB: 15) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 19:50:13) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q=", "pic"=>{"title"=>"张馨予", "description"=>"色女郎", "url_address"=>"http://www.6to23.com/uploadfile/img/uploadfile/200903/zhangxinyum14.jpg"}}
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 78ms (View: 16, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 19:51:08) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 219ms (View: 32, DB: 16) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#create (for 127.0.0.1 at 2009-12-02 19:52:12) [POST]
+  Parameters: {"commit"=>"Create", "pics"=>{"title"=>"张涵予", "description"=>"少比", "url_address"=>"http://www.shrose.com.cn/Article/UploadFiles/200904/20090422153233171.jpg"}, "authenticity_token"=>"RioZxO4jkGTeU1GthgPCe0HkpBRIJ/p0Xl9MQkakI2Q="}
+Rendering template within layouts/user
+Rendering pics/create
+Completed in 78ms (View: 15, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-02 19:54:58) [GET]
+  Parameters: {"id"=>"new_address"}
+
+ActiveRecord::RecordNotFound (Couldn't find Pic with ID=new_address):
+  app/controllers/pics_controller.rb:38:in `show'
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-02 19:58:53) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (31.0ms)
+Completed in 109ms (View: 63, DB: 15) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 19:58:54) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 359ms (View: 281, DB: 47) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 19:58:54) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-02 19:59:09) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (47.0ms)
+Completed in 94ms (View: 62, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 19:59:10) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 281ms (View: 250, DB: 15) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 19:59:10) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 235ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-02 19:59:18) [GET]
+  Parameters: {"id"=>"5"}
+Rendering template within layouts/user
+Rendering pics/show
+Completed in 31ms (View: 15, DB: 16) | 200 OK [http://localhost/pics/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:59:19) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 234ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:59:19) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 219ms (View: 188, DB: 0) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-02 19:59:24) [GET]
+  Parameters: {"id"=>"6"}
+Rendering template within layouts/user
+Rendering pics/show
+Completed in 32ms (View: 0, DB: 16) | 200 OK [http://localhost/pics/6]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 19:59:25) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 250ms (View: 203, DB: 32) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 19:59:25) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 234ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-02 20:00:11) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (31.0ms)
+Completed in 94ms (View: 46, DB: 16) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 20:00:12) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 20:00:12) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 235ms (View: 204, DB: 15) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-02 20:00:50) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (47.0ms)
+Completed in 94ms (View: 63, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 20:00:51) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 20:00:51) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 234ms (View: 204, DB: 0) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-02 20:00:54) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (47.0ms)
+Rendered pics/_index (93.0ms)
+Completed in 109ms (View: 93, DB: 0) | 200 OK [http://localhost/pics/category/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:00:55) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 281ms (View: 265, DB: 0) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:00:55) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:00:56) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 391ms (View: 360, DB: 0) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:00:56) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 234ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:00:56) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 266ms (View: 235, DB: 15) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:00:57) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:00:57) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 219ms (View: 188, DB: 15) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:00:57) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 328ms (View: 281, DB: 0) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:00:58) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 313ms (View: 297, DB: 0) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:00:58) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 282ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:00:59) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 281ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:00:59) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 344ms (View: 312, DB: 0) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:01:00) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 1922ms (View: 1890, DB: 0) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:01:03) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 359ms (View: 312, DB: 0) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:01:03) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 437ms (View: 390, DB: 0) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:01:04) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 485ms (View: 438, DB: 0) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:01:05) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 250ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:01:05) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 1047ms (View: 1016, DB: 0) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:01:07) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 453ms (View: 422, DB: 16) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:01:07) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 406ms (View: 390, DB: 0) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing PicsController#new (for 127.0.0.1 at 2009-12-02 20:01:28) [GET]
+Rendering template within layouts/user
+Rendering pics/new
+Completed in 78ms (View: 16, DB: 16) | 200 OK [http://localhost/pics/new]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-02 20:02:09) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (47.0ms)
+Rendered pics/_index (109.0ms)
+Completed in 141ms (View: 78, DB: 31) | 200 OK [http://localhost/pics/category/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:02:10) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 328ms (View: 297, DB: 15) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:02:10) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 547ms (View: 515, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:02:11) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 594ms (View: 531, DB: 16) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:02:12) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 641ms (View: 594, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:02:13) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 609ms (View: 578, DB: 0) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:02:13) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 344ms (View: 282, DB: 0) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:02:14) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 328ms (View: 281, DB: 32) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:02:14) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 437ms (View: 406, DB: 0) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:02:15) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 359ms (View: 328, DB: 0) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:02:15) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 500ms (View: 469, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:02:16) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:02:16) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 375ms (View: 344, DB: 15) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:02:17) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 593ms (View: 547, DB: 15) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:02:18) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 641ms (View: 594, DB: 0) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:02:20) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 1406ms (View: 1375, DB: 16) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:02:23) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 3390ms (View: 922, DB: 422) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:02:26) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 734ms (View: 703, DB: 0) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:02:27) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 234ms (View: 203, DB: 16) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:02:28) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:02:28) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 1110ms (View: 1094, DB: 16) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-02 20:32:31) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (47.0ms)
+Rendered pics/_index (172.0ms)
+Completed in 204ms (View: 172, DB: 16) | 200 OK [http://localhost/pics/category/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:32:33) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 359ms (View: 344, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:32:33) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 297ms (View: 281, DB: 0) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:32:34) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 297ms (View: 266, DB: 15) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:32:34) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:32:35) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 281ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:32:35) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 281ms (View: 250, DB: 32) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:32:35) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 266ms (View: 235, DB: 15) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:32:36) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 328ms (View: 297, DB: 15) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:32:36) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 360ms (View: 328, DB: 0) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-02 20:32:37) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 344ms (View: 313, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:32:37) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 437ms (View: 406, DB: 0) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:32:38) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 625ms (View: 547, DB: 0) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:32:42) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 578ms (View: 532, DB: 15) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:32:42) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 359ms (View: 328, DB: 0) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:32:43) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 344ms (View: 297, DB: 15) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:32:44) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 250ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:32:44) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 484ms (View: 469, DB: 0) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:32:47) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 1547ms (View: 719, DB: 15) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:32:48) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 234ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-02 20:32:49) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 1234ms (View: 1203, DB: 0) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 23:01:58) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (765.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (235.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (343.0ms)
+Completed in 1859ms (View: 1655, DB: 95) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:02:01) [GET]
+Rendering articles/index
+Completed in 203ms (View: 157, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 23:06:58) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 281ms (View: 218, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:06:59) [GET]
+Rendering articles/index
+Completed in 281ms (View: 125, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 23:08:44) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 187, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:08:46) [GET]
+Rendering articles/index
+Completed in 203ms (View: 187, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#about (for 127.0.0.1 at 2009-12-02 23:08:46) [GET]
+Rendered blog/_about (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-02 23:08:50) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlogController#about (for 127.0.0.1 at 2009-12-02 23:09:19) [GET]
+Rendered blog/_about (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing BlogController#about (for 127.0.0.1 at 2009-12-02 23:10:30) [GET]
+Rendering template within layouts/blog
+Rendered blog/_about (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/about]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:10:31) [GET]
+Rendering articles/index
+Completed in 172ms (View: 140, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#about (for 127.0.0.1 at 2009-12-02 23:12:12) [GET]
+Rendering template within layouts/blog
+Rendered blog/_about (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/about]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:12:13) [GET]
+Rendering articles/index
+Completed in 156ms (View: 140, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 23:14:54) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 234ms (View: 187, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:14:56) [GET]
+Rendering articles/index
+Completed in 188ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 23:14:56) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 375ms (View: 203, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:14:58) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 23:15:54) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (297.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 500ms (View: 359, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:15:55) [GET]
+Rendering articles/index
+Completed in 172ms (View: 157, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#video (for 127.0.0.1 at 2009-12-02 23:15:56) [GET]
+Rendering template within layouts/blog
+Rendered blog/_video (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/video]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:15:57) [GET]
+Rendering articles/index
+Completed in 156ms (View: 125, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#about (for 127.0.0.1 at 2009-12-02 23:16:16) [GET]
+Rendering template within layouts/blog
+Rendered blog/_about (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/about]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:16:17) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#video (for 127.0.0.1 at 2009-12-02 23:16:18) [GET]
+Rendering template within layouts/blog
+Rendered blog/_video (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/video]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:16:18) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-02 23:16:19) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (0.0ms)
+Completed in 141ms (View: 62, DB: 32) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 23:16:20) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 516ms (View: 485, DB: 15) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-02 23:16:21) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 266ms (View: 235, DB: 0) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 23:16:24) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 234ms (View: 188, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:16:25) [GET]
+Rendering articles/index
+Completed in 203ms (View: 187, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2009-12-02 23:19:03) [GET]
+Rendering template within layouts/blog
+Rendering blog/show
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/blog/show]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:19:04) [GET]
+Rendering articles/index
+Completed in 282ms (View: 266, DB: 0) | 200 OK [http://localhost/articles.rss]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:19:09) [GET]
+Rendering articles/index
+Completed in 219ms (View: 187, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 23:20:17) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 593ms (View: 562, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:20:19) [GET]
+Rendering articles/index
+Completed in 187ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-02 23:20:20) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:20:21) [GET]
+Rendering articles/index
+Completed in 297ms (View: 140, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-02 23:20:25) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 187, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-02 23:20:26) [GET]
+Rendering articles/index
+Completed in 375ms (View: 344, DB: 0) | 200 OK [http://localhost/articles.rss]

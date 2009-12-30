@@ -1,0 +1,39 @@
+<%= javascript_include_tag 'jquery.corner'%>
+<script type="text/javascript" charset="utf-8">
+  jQuery.noConflict();
+  jQuery(function($){
+    $("#acontent").corner();
+    $(".comment").corner();
+  });
+</script>
+<script type="text/javascript" charset="utf-8">
+  jQuery.noConflict();
+  jQuery(function($){
+    if ($("#comment").length>0) {
+      $("#hidecomment").remove();
+    };
+  });  
+</script>
+<%= stylesheet_link_tag 'article'%>
+<div id="back">
+  <%= link_to "BACK",root_path%>
+</div>
+<div id="container">
+  <div class ="corner">
+	<ul id="article">
+		<li class="title"><h2><%= @article.title%></h2><li>
+		<li class="cata">Category: <%= link_to "#{@article.category.cgname}",@article.category %>&nbsp;&nbsp;&nbsp;Tag: <%= @article.tag_list%>&nbsp;&nbsp;&nbsp;Posted  by  <%= link_to "zshuaibin",about_path %></li>
+		<li id ="acontent"><p><%= @article.article_content%></p></li>
+		<li class= "posttime"><%= format_time(@article.created_at) %>
+	</ul>
+  </div><!-- #corner -->
+  <div id="comments">
+    <div id="hidecomment" class="comment">
+      <h3>暂时还没有评论.</h3>
+    </div>
+	<% @comments.each do |comment|-%>
+			<%= render :partial => 'comments/comments_list',:locals => {:comment => comment}%>
+	<% end -%>
+  </div><!-- #comments-->
+<%= render :partial => "comments/comment_form" %>
+</div><!-- #container-->

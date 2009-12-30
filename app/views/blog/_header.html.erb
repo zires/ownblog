@@ -1,0 +1,44 @@
+<div id="header">
+				<%= image_tag("logo.gif")%>
+				<!--js when the link has been clicked,change the active_tab-->
+				<%= javascript_include_tag 'jquery' %>
+				<script type="text/javascript" charset="utf-8">
+				    jQuery.noConflict();
+				    jQuery(function($){
+				        if($("#myshare").length>0){
+				          $("#linkmenu li").removeClass("active_tab");
+				          $("#share").toggleClass("active_tab");
+				        }
+				        if($("#content").length>0){
+				          $("#linkmenu li").removeClass("active_tab");
+				          $("#home").toggleClass("active_tab");
+				        }
+				        if($("#page").length>0){
+				          $("#linkmenu li").removeClass("active_tab");
+				          $("#pics").toggleClass("active_tab");
+				        }
+				        if($("#aboutme").length>0){
+				          $("#linkmenu li").removeClass("active_tab");
+				          $("#about").toggleClass("active_tab");
+				        }
+				        if($("#myvideo").length>0){
+				          $("#linkmenu li").removeClass("active_tab");
+				          $("#video").toggleClass("active_tab");
+				        }
+				    });
+  				</script>
+				<ul id="linkmenu">
+					<li class="active_tab" id ="home"><%= link_to "Home",:controller => 'blog',:action => 'index' %></li>
+					<li id ="share"><%= link_to "share",share_path %></li>
+					<li id = "pics"><%= link_to "Pictures",:controller => 'pics',:action => 'index' %></li>
+					<li id = "video"><%= link_to "video",video_path %></li>
+					<li id = "about"><%= link_to "About",about_path %></li>
+				</ul>
+				<div id="loginout">
+					<% if logged_in? -%>
+								<%= link_to "Logout", logout_path %>
+						<% else -%>
+								<%= link_to "Login", login_path, :popup => true %>
+					<% end -%>
+				</div><!-- #loginout-->
+</div><!-- #header -->

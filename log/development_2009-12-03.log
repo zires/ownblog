@@ -1,0 +1,1259 @@
+# Logfile created on Thu Dec 03 16:00:09 +0800 2009 by /
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-03 16:04:12) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering pics/show
+Completed in 2187ms (View: 1828, DB: 329) | 200 OK [http://localhost/pics/1]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:04:16) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 531ms (View: 500, DB: 0) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-03 16:04:17) [GET]
+  Parameters: {"id"=>"1"}
+
+SyntaxError ((eval):1:in `render': compile error
+(eval):1: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+@pic.operate{|image| image.crop(:form => '100x50',:size '90x90')}
+                                                         ^
+(eval):1: syntax error, unexpected ')', expecting '}'
+@pic.operate{|image| image.crop(:form => '100x50',:size '90x90')}
+                                                                ^):
+  compiled-template:1:in `_run_flexi_inline_964071460'
+  haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/pics_controller.rb:55:in `bigger'
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:04:17) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 375ms (View: 328, DB: 15) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:06:03) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-03 16:06:16) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering pics/show
+Completed in 46ms (View: 15, DB: 0) | 200 OK [http://localhost/pics/1]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:06:17) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 297ms (View: 266, DB: 31) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-03 16:06:17) [GET]
+  Parameters: {"id"=>"1"}
+
+SyntaxError ((eval):1:in `render': compile error
+(eval):1: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+@pic.operate{|image| image.crop(:form => '500x580',:size '90x90')}
+                                                          ^
+(eval):1: syntax error, unexpected ')', expecting '}'
+@pic.operate{|image| image.crop(:form => '500x580',:size '90x90')}
+                                                                 ^):
+  compiled-template:1:in `_run_flexi_inline_63550306'
+  haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/pics_controller.rb:55:in `bigger'
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:06:18) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 328ms (View: 297, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-03 16:06:46) [GET]
+  Parameters: {"id"=>"1"}
+
+SyntaxError ((eval):1:in `render': compile error
+(eval):1: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+@pic.operate{|image| image.crop(:form => '500x580',:size '90x90')}
+                                                          ^
+(eval):1: syntax error, unexpected ')', expecting '}'
+@pic.operate{|image| image.crop(:form => '500x580',:size '90x90')}
+                                                                 ^):
+  compiled-template:1:in `_run_flexi_inline_63550306'
+  haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/pics_controller.rb:55:in `bigger'
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-03 16:07:57) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering pics/show
+Completed in 31ms (View: 0, DB: 15) | 200 OK [http://localhost/pics/1]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-03 16:07:59) [GET]
+  Parameters: {"id"=>"1"}
+
+SyntaxError ((eval):1:in `render': compile error
+(eval):1: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+@pic.operate{|image| image.crop(:form => '100x50',:size '500x350')}
+                                                         ^
+(eval):1: syntax error, unexpected ')', expecting '}'
+@pic.operate{|image| image.crop(:form => '100x50',:size '500x350')}
+                                                                  ^):
+  compiled-template:1:in `_run_flexi_inline_397504463'
+  haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/pics_controller.rb:55:in `bigger'
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:07:59) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 313ms (View: 281, DB: 16) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:07:59) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 297ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-03 16:08:37) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering pics/show
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://localhost/pics/1]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-03 16:08:38) [GET]
+  Parameters: {"id"=>"1"}
+
+SyntaxError ((eval):1:in `render': compile error
+(eval):1: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+@pic.operate{|image| image.crop(:form => '100x50',:size '500x350')}
+                                                         ^
+(eval):1: syntax error, unexpected ')', expecting '}'
+@pic.operate{|image| image.crop(:form => '100x50',:size '500x350')}
+                                                                  ^):
+  compiled-template:1:in `_run_flexi_inline_397504463'
+  haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/pics_controller.rb:55:in `bigger'
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:08:38) [GET]
+  Parameters: {"id"=>"1"}
+
+SyntaxError ((eval):1:in `render': compile error
+(eval):1: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+@pic.operate{|image| image.crop(:form => '100x50',:size '500x350')}
+                                                         ^
+(eval):1: syntax error, unexpected ')', expecting '}'
+@pic.operate{|image| image.crop(:form => '100x50',:size '500x350')}
+                                                                  ^):
+  compiled-template:1:in `_run_flexi_inline_397504463'
+  haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/pics_controller.rb:50:in `thumb'
+  haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:08:39) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 328ms (View: 297, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#show (for 127.0.0.1 at 2009-12-03 16:09:02) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering pics/show
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/pics/1]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:03) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 281ms (View: 265, DB: 0) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-03 16:09:03) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 296ms (View: 265, DB: 0) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:09:04) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 344ms (View: 313, DB: 15) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-03 16:09:40) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (78.0ms)
+Completed in 235ms (View: 172, DB: 31) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-03 16:09:40) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 438ms (View: 391, DB: 0) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-03 16:09:41) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 313ms (View: 281, DB: 16) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-03 16:09:42) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (0.0ms)
+Rendered pics/_index (140.0ms)
+Completed in 172ms (View: 124, DB: 32) | 200 OK [http://localhost/pics/category/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:43) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 469ms (View: 375, DB: 16) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:43) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 312ms (View: 281, DB: 15) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:44) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 375ms (View: 344, DB: 0) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:44) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 313ms (View: 282, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:45) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 313ms (View: 282, DB: 0) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:45) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 297ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:46) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 281ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:46) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 359ms (View: 328, DB: 16) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:47) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 453ms (View: 406, DB: 0) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:09:47) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 375ms (View: 344, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:09:48) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 312ms (View: 281, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:09:49) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 312ms (View: 281, DB: 16) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:09:49) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:09:49) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 266ms (View: 235, DB: 15) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:09:50) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 234ms (View: 203, DB: 16) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:09:50) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 281ms (View: 235, DB: 16) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:09:52) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:09:52) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 547ms (View: 516, DB: 0) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:09:53) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:09:54) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:09:54) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 281ms (View: 219, DB: 15) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:09:56) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 640ms (View: 609, DB: 16) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:09:57) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:09:59) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:09:59) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 578ms (View: 547, DB: 0) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:10:00) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:10:00) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:10:00) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 453ms (View: 422, DB: 0) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:10:03) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:10:04) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:10:06) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:10:07) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:10:15) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:10:17) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:10:18) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-03 16:11:02) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (16.0ms)
+Rendered pics/_index (94.0ms)
+Completed in 172ms (View: 94, DB: 16) | 200 OK [http://localhost/pics/category/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:11:03) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 313ms (View: 281, DB: 16) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:11:03) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 328ms (View: 297, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:11:04) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 266ms (View: 235, DB: 0) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:11:04) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 265ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:11:04) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 281ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:11:05) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 297ms (View: 281, DB: 0) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:11:05) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 266ms (View: 235, DB: 0) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:11:06) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 328ms (View: 281, DB: 0) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:11:06) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 359ms (View: 328, DB: 0) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-03 16:11:07) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 328ms (View: 312, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:11:07) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 312ms (View: 281, DB: 16) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:11:08) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 297ms (View: 281, DB: 0) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:11:08) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:11:08) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 281ms (View: 234, DB: 16) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:11:09) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 235ms (View: 203, DB: 16) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:11:09) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 234ms (View: 218, DB: 0) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:11:10) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 234ms (View: 203, DB: 15) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:11:11) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 234ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:11:11) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 485ms (View: 454, DB: 0) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:11:12) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 438ms (View: 391, DB: 0) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-03 16:11:13) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 875ms (View: 844, DB: 16) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:11:15) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:11:15) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:11:16) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:11:17) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:11:19) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:11:19) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:11:21) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:11:22) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-03 16:11:26) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:25:22) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (1250.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (250.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 1875ms (View: 1311, DB: 361) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:25:27) [GET]
+Rendering articles/index
+Completed in 312ms (View: 265, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-03 16:25:59) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (16.0ms)
+Completed in 63ms (View: 16, DB: 16) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-03 16:26:00) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 453ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-03 16:26:01) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing BlogController#video (for 127.0.0.1 at 2009-12-03 16:26:11) [GET]
+Rendering template within layouts/blog
+Rendered blog/_video (31.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/video]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:26:12) [GET]
+Rendering articles/index
+Completed in 234ms (View: 172, DB: 31) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#about (for 127.0.0.1 at 2009-12-03 16:26:13) [GET]
+Rendering template within layouts/blog
+Rendered blog/_about (31.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/about]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:26:14) [GET]
+Rendering articles/index
+Completed in 281ms (View: 266, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-03 16:26:15) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:26:15) [GET]
+Rendering articles/index
+Completed in 421ms (View: 406, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:26:17) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (94.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 343ms (View: 248, DB: 48) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:26:18) [GET]
+Rendering articles/index
+Completed in 250ms (View: 203, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:33:16) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 500ms (View: 202, DB: 48) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:33:19) [GET]
+Rendering articles/index
+Completed in 188ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:33:33) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 265ms (View: 234, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:33:35) [GET]
+Rendering articles/index
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:33:55) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 359ms (View: 328, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:33:57) [GET]
+Rendering articles/index
+Completed in 328ms (View: 297, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:34:26) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (188.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 329ms (View: 251, DB: 31) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:34:28) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:34:51) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (110.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 312ms (View: 250, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:34:53) [GET]
+Rendering articles/index
+Completed in 172ms (View: 140, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:35:17) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (219.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 438ms (View: 407, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:35:18) [GET]
+Rendering articles/index
+Completed in 188ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:36:59) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (297.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 438ms (View: 391, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:37:01) [GET]
+Rendering articles/index
+Completed in 188ms (View: 157, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:37:15) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (297.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 438ms (View: 343, DB: 64) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:37:17) [GET]
+Rendering articles/index
+Completed in 187ms (View: 156, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:37:38) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (297.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (93.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 453ms (View: 375, DB: 31) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:37:40) [GET]
+Rendering articles/index
+Completed in 188ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 16:37:50) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 468ms (View: 235, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 16:37:52) [GET]
+Rendering articles/index
+Completed in 188ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-03 18:25:05) [GET]
+  Parameters: {"id"=>"21"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comments_list (16.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (16.0ms)
+Rendered comments/_comment_form (62.0ms)
+Completed in 453ms (View: 343, DB: 48) | 200 OK [http://localhost/articles/21]
+
+
+Processing CommentsController#create (for 127.0.0.1 at 2009-12-03 18:25:29) [POST]
+  Parameters: {"authenticity_token"=>"WjY/061ugv7WEgL2iEqmCHwYLGOaI7zNHBk7dBvYLDI=", "article_id"=>"21", "comment"=>{"title"=>"ajsd", "comment"=>"第三方接口现状及史蒂夫科技萨科技妇女思考佛送到附近"}}
+Rendered comments/_comments_list (0.0ms)
+Completed in 141ms (View: 16, DB: 47) | 200 OK [http://localhost/articles/21/comments]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-03 18:25:33) [GET]
+  Parameters: {"id"=>"21"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (16.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comment_form (0.0ms)
+Completed in 125ms (View: 64, DB: 15) | 200 OK [http://localhost/articles/21]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 18:25:38) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 281ms (View: 173, DB: 77) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 18:25:40) [GET]
+Rendering articles/index
+Completed in 453ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+/!\ FAILSAFE /!\  Thu Dec 03 23:26:08 +0800 2009
+  Status: 500 Internal Server Error
+  E:/zblog/app/helpers/blog_helper.rb:12: syntax error, unexpected kEND, expecting $end
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:126:in `helper'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:120:in `helper'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    E:/zblog/app/controllers/application_controller.rb:5
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    D:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    D:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    D:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Thu Dec 03 23:26:12 +0800 2009
+  Status: 500 Internal Server Error
+  E:/zblog/app/helpers/blog_helper.rb:12: syntax error, unexpected kEND, expecting $end
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:126:in `helper'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:120:in `helper'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    E:/zblog/app/controllers/application_controller.rb:5
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    D:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    D:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    D:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 23:27:34) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (907.0ms)
+
+ActionView::TemplateError (undefined method `commentable_id' for "":String) on line #31 of app/views/blog/_sidebar.html.erb:
+28:   </ul>
+29: 	<ul>
+30: 	    <% return_lately_comment(15) do -%>
+31: 	      <li class="linkcomment"><%= link_to limitcomment("#{@comment.comment}",30), Article.find(@comment.commentable_id),:popup => true %></li>
+32: 	    <% end -%>
+33: 	</ul>
+34: </div>
+
+    app/views/blog/_sidebar.html.erb:31
+    app/helpers/application_helper.rb:37:in `return_lately_comment'
+    app/helpers/application_helper.rb:36:in `each'
+    app/helpers/application_helper.rb:36:in `return_lately_comment'
+    app/views/blog/_sidebar.html.erb:30
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/views/blog/index.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (266.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 23:28:51) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (375.0ms)
+Completed in 671ms (View: 593, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 23:28:54) [GET]
+Rendering articles/index
+Completed in 171ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 23:33:11) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (343.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 531ms (View: 468, DB: 31) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 23:33:13) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 23:34:02) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (344.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 500ms (View: 407, DB: 46) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 23:34:04) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 23:35:30) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (359.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 469ms (View: 390, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 23:35:32) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 23:35:34) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 390ms (View: 171, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 23:35:36) [GET]
+Rendering articles/index
+Completed in 172ms (View: 157, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-03 23:36:06) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 406ms (View: 219, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-03 23:36:08) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 0) | 200 OK [http://localhost/articles.rss]

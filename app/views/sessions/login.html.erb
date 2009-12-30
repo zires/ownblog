@@ -1,0 +1,19 @@
+<div id="flash">
+  <%= flash[:error]%>
+</div>
+<div id="userlogin">
+<% form_tag session_path do -%>
+<ul>
+<li>用户名:&nbsp;<%= text_field_tag 'login', @login %></li>
+
+<li>密码:&nbsp;<%= password_field_tag 'password', nil %></li>
+
+<!-- remember_me-->
+<li><%= label_tag 'remember_me', 'Remember me' %>
+<%= check_box_tag 'remember_me', '1', @remember_me %></li>
+
+<li><%= submit_tag '登录',:style => "width: 70px; height: 25px" %></li>
+<li id="return"><%= link_to '返回主页',root_path %>
+</ul>
+<% end -%>
+</div>

@@ -1,0 +1,8 @@
+<div id="myshare">
+  <ul>
+    <li><h2>下载列表</h2></li>
+    <% Share.find(:all).each do |share| %>
+      <li><%= link_to share.stuff_file_name,share.stuff.url%></li>
+    <% end %>
+  <ul>
+</div>

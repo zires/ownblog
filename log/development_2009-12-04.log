@@ -1,0 +1,2622 @@
+# Logfile created on Fri Dec 04 12:08:55 +0800 2009 by /
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 12:22:02) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (2313.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (235.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (1500.0ms)
+Completed in 5375ms (View: 3813, DB: 1703) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 12:22:15) [GET]
+Rendering articles/index
+Completed in 422ms (View: 327, DB: 64) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 13:33:41) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 344ms (View: 297, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 13:33:44) [GET]
+Rendering articles/index
+Completed in 375ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 13:35:24) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 313ms (View: 220, DB: 46) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 13:35:25) [GET]
+Rendering articles/index
+Completed in 484ms (View: 453, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 13:36:09) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (157.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+
+ActionView::TemplateError (undefined method `total_pages' for #<Array:0x676e8a4>) on line #7 of app/views/blog/index.html.erb:
+4: <div id = "sidebar">
+5:   <%= render :partial => 'blog/sidebar',:locals => {:categories => @categories}%>
+6: </div>
+7: <%= will_paginate @articles %>
+
+    D:/ruby/lib/ruby/gems/1.8/gems/will_paginate-2.3.11/lib/will_paginate/view_helpers.rb:197:in `total_pages_for_collection'
+    D:/ruby/lib/ruby/gems/1.8/gems/will_paginate-2.3.11/lib/will_paginate/view_helpers.rb:98:in `will_paginate'
+    app/views/blog/index.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (328.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-04 13:36:13) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 13:36:53) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (188.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (250.0ms)
+
+ActionView::TemplateError (undefined method `total_pages' for #<Array:0x6a01c4c>) on line #7 of app/views/blog/index.html.erb:
+4: <div id = "sidebar">
+5:   <%= render :partial => 'blog/sidebar',:locals => {:categories => @categories}%>
+6: </div>
+7: <%= will_paginate @articles %>
+
+    D:/ruby/lib/ruby/gems/1.8/gems/will_paginate-2.3.11/lib/will_paginate/view_helpers.rb:197:in `total_pages_for_collection'
+    D:/ruby/lib/ruby/gems/1.8/gems/will_paginate-2.3.11/lib/will_paginate/view_helpers.rb:98:in `will_paginate'
+    app/views/blog/index.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 13:37:04) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (344.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+
+ActionView::TemplateError (undefined method `total_pages' for #<Array:0x695fc80>) on line #7 of app/views/blog/index.html.erb:
+4: <div id = "sidebar">
+5:   <%= render :partial => 'blog/sidebar',:locals => {:categories => @categories}%>
+6: </div>
+7: <%= will_paginate @articles %>
+
+    D:/ruby/lib/ruby/gems/1.8/gems/will_paginate-2.3.11/lib/will_paginate/view_helpers.rb:197:in `total_pages_for_collection'
+    D:/ruby/lib/ruby/gems/1.8/gems/will_paginate-2.3.11/lib/will_paginate/view_helpers.rb:98:in `will_paginate'
+    app/views/blog/index.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 13:37:11) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (157.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+
+ActionView::TemplateError (undefined method `total_pages' for #<Array:0x68c6990>) on line #7 of app/views/blog/index.html.erb:
+4: <div id = "sidebar">
+5:   <%= render :partial => 'blog/sidebar',:locals => {:categories => @categories}%>
+6: </div>
+7: <%= will_paginate @articles %>
+
+    D:/ruby/lib/ruby/gems/1.8/gems/will_paginate-2.3.11/lib/will_paginate/view_helpers.rb:197:in `total_pages_for_collection'
+    D:/ruby/lib/ruby/gems/1.8/gems/will_paginate-2.3.11/lib/will_paginate/view_helpers.rb:98:in `will_paginate'
+    app/views/blog/index.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 13:37:24) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (157.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 297ms (View: 250, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 13:37:26) [GET]
+Rendering articles/index
+Completed in 422ms (View: 250, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 13:56:25) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (187.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 422ms (View: 359, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 13:56:28) [GET]
+Rendering articles/index
+Completed in 438ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 13:56:33) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (187.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (79.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 328ms (View: 234, DB: 63) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 13:56:35) [GET]
+Rendering articles/index
+Completed in 485ms (View: 454, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 13:56:43) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (79.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 312ms (View: 249, DB: 16) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 13:56:44) [GET]
+Rendering articles/index
+Completed in 203ms (View: 171, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 14:10:47) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 328ms (View: 234, DB: 32) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 14:10:50) [GET]
+Rendering articles/index
+Completed in 906ms (View: 890, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 14:13:01) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 360ms (View: 266, DB: 47) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 14:13:04) [GET]
+Rendering articles/index
+Completed in 219ms (View: 188, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 14:18:15) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 328ms (View: 235, DB: 46) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 14:18:16) [GET]
+Rendering articles/index
+Completed in 500ms (View: 204, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 14:18:29) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (188.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 375ms (View: 236, DB: 61) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 14:18:31) [GET]
+Rendering articles/index
+Completed in 375ms (View: 344, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:23:57) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (94.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 390ms (View: 235, DB: 77) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:23:59) [GET]
+Rendering articles/index
+Completed in 578ms (View: 562, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:24:52) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 234ms (View: 188, DB: 0) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:24:54) [GET]
+Rendering articles/index
+Completed in 344ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:25:31) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 297ms (View: 189, DB: 46) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:25:33) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:28:44) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 187, DB: 32) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:28:46) [GET]
+Rendering articles/index
+Completed in 172ms (View: 140, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:34:55) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 281ms (View: 234, DB: 0) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:34:57) [GET]
+Rendering articles/index
+Completed in 562ms (View: 515, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:37:18) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 515ms (View: 453, DB: 16) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:37:20) [GET]
+Rendering articles/index
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:37:53) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (218.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 438ms (View: 391, DB: 0) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:37:55) [GET]
+Rendering articles/index
+Completed in 204ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:38:14) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (281.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 406ms (View: 359, DB: 16) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:38:16) [GET]
+Rendering articles/index
+Completed in 204ms (View: 188, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:39:11) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (312.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 453ms (View: 360, DB: 46) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:39:13) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:39:33) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 421ms (View: 375, DB: 0) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:39:35) [GET]
+Rendering articles/index
+Completed in 172ms (View: 140, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:40:05) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (157.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 453ms (View: 220, DB: 15) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:40:07) [GET]
+Rendering articles/index
+Completed in 188ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:41:34) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 281ms (View: 202, DB: 32) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:41:36) [GET]
+Rendering articles/index
+Completed in 328ms (View: 312, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:42:03) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 266ms (View: 235, DB: 0) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:42:05) [GET]
+Rendering articles/index
+Completed in 656ms (View: 500, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:42:13) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 203, DB: 0) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:42:14) [GET]
+Rendering articles/index
+Completed in 328ms (View: 312, DB: 0) | 200 OK [http://localhost/articles.rss]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-04 15:45:35) [GET]
+  Parameters: {"id"=>"13"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comment_form (31.0ms)
+Completed in 328ms (View: 234, DB: 47) | 200 OK [http://localhost/articles/13]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:46:01) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 421ms (View: 218, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:46:02) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 15:46:49) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (16.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:46:50) [GET]
+Rendering articles/index
+Completed in 218ms (View: 187, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:46:55) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 282ms (View: 189, DB: 46) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:46:57) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-04 15:46:58) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (0.0ms)
+Completed in 391ms (View: 156, DB: 110) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-04 15:46:59) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 1046ms (View: 1015, DB: 0) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-04 15:47:00) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 329ms (View: 297, DB: 0) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing BlogController#video (for 127.0.0.1 at 2009-12-04 15:47:06) [GET]
+Rendering template within layouts/blog
+Rendered blog/_video (16.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 46ms (View: 46, DB: 0) | 200 OK [http://localhost/video]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:47:07) [GET]
+Rendering articles/index
+Completed in 219ms (View: 172, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#about (for 127.0.0.1 at 2009-12-04 15:47:08) [GET]
+Rendering template within layouts/blog
+Rendered blog/_about (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/about]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:47:08) [GET]
+Rendering articles/index
+Completed in 203ms (View: 156, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:47:10) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 297ms (View: 234, DB: 48) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:47:12) [GET]
+Rendering articles/index
+Completed in 375ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 15:47:20) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:47:20) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:47:23) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (328.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 469ms (View: 422, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:47:24) [GET]
+Rendering articles/index
+Completed in 219ms (View: 187, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:51:27) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (484.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 687ms (View: 610, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:51:29) [GET]
+Rendering articles/index
+Completed in 187ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:52:31) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (157.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 484ms (View: 389, DB: 48) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:52:33) [GET]
+Rendering articles/index
+Completed in 218ms (View: 187, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:53:21) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (79.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 328ms (View: 233, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:53:23) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:53:58) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (157.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 313ms (View: 218, DB: 64) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:54:00) [GET]
+Rendering articles/index
+Completed in 375ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#about (for 127.0.0.1 at 2009-12-04 15:54:05) [GET]
+Rendering template within layouts/blog
+Rendered blog/_about (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/about]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:54:06) [GET]
+Rendering articles/index
+Completed in 235ms (View: 203, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:54:27) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (328.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 468ms (View: 390, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:54:29) [GET]
+Rendering articles/index
+Completed in 204ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:56:15) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (187.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 516ms (View: 422, DB: 47) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:56:17) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:56:23) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (94.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 359ms (View: 296, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:56:25) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 15:59:12) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 329ms (View: 251, DB: 31) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 15:59:15) [GET]
+Rendering articles/index
+Completed in 250ms (View: 203, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:00:07) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 297ms (View: 234, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:00:09) [GET]
+Rendering articles/index
+Completed in 203ms (View: 156, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:00:39) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 312ms (View: 250, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:00:41) [GET]
+Rendering articles/index
+Completed in 875ms (View: 844, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:02:22) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (188.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 375ms (View: 265, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:02:24) [GET]
+Rendering articles/index
+Completed in 359ms (View: 344, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:02:44) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (188.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 360ms (View: 234, DB: 63) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:02:46) [GET]
+Rendering articles/index
+Completed in 297ms (View: 281, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:06:31) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 344ms (View: 250, DB: 47) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:06:33) [GET]
+Rendering articles/index
+Completed in 938ms (View: 907, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:06:46) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (109.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 360ms (View: 313, DB: 0) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:06:49) [GET]
+Rendering articles/index
+Completed in 203ms (View: 171, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:07:03) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (188.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 375ms (View: 282, DB: 45) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:07:05) [GET]
+Rendering articles/index
+Completed in 204ms (View: 157, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:08:25) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (219.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (250.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 562ms (View: 437, DB: 78) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:08:27) [GET]
+Rendering articles/index
+Completed in 203ms (View: 156, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:08:39) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (328.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 485ms (View: 391, DB: 47) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:08:41) [GET]
+Rendering articles/index
+Completed in 204ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-04 16:09:17) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (0.0ms)
+Completed in 78ms (View: 31, DB: 16) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-04 16:09:18) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 296ms (View: 265, DB: 0) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-04 16:09:18) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 313ms (View: 282, DB: 0) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-04 16:09:19) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (16.0ms)
+Rendered pics/_index (500.0ms)
+Completed in 546ms (View: 499, DB: 16) | 200 OK [http://localhost/pics/category/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 16:09:21) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 422ms (View: 328, DB: 16) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 16:09:21) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 344ms (View: 313, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 16:09:22) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 360ms (View: 329, DB: 0) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 16:09:22) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 438ms (View: 375, DB: 16) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 16:09:23) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 297ms (View: 266, DB: 15) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 16:09:23) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 328ms (View: 281, DB: 16) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 16:09:24) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 281ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 16:09:24) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 344ms (View: 312, DB: 0) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 16:09:25) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 391ms (View: 360, DB: 15) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 16:09:25) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 406ms (View: 375, DB: 16) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 16:09:26) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 297ms (View: 281, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 16:09:26) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 765ms (View: 453, DB: 32) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 16:09:27) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 281ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 16:09:28) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 250ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 16:09:28) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 266ms (View: 234, DB: 16) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 16:09:29) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 250ms (View: 219, DB: 15) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 16:09:29) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 234ms (View: 203, DB: 15) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 16:09:30) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 406ms (View: 375, DB: 0) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 16:09:31) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 625ms (View: 594, DB: 0) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 16:09:32) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 468ms (View: 453, DB: 0) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:09:53) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 328ms (View: 220, DB: 62) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:09:56) [GET]
+Rendering articles/index
+Completed in 250ms (View: 219, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:09:59) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 313ms (View: 251, DB: 15) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:10:00) [GET]
+Rendering articles/index
+Completed in 203ms (View: 156, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:10:21) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (203.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 532ms (View: 282, DB: 15) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:10:24) [GET]
+Rendering articles/index
+Completed in 282ms (View: 235, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:10:52) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 547ms (View: 297, DB: 31) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:10:55) [GET]
+Rendering articles/index
+Completed in 234ms (View: 188, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:11:10) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 328ms (View: 265, DB: 16) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:11:13) [GET]
+Rendering articles/index
+Completed in 203ms (View: 156, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:11:21) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (187.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 343ms (View: 235, DB: 46) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:11:23) [GET]
+Rendering articles/index
+Completed in 188ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:12:05) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 328ms (View: 266, DB: 15) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:12:07) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:12:13) [GET]
+  Parameters: {"page"=>"1"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 313ms (View: 266, DB: 16) | 200 OK [http://localhost/?page=1]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:12:15) [GET]
+Rendering articles/index
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:13:15) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:13:16) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:25:38) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:25:39) [GET]
+Rendering articles/index
+Completed in 328ms (View: 312, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:25:41) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (187.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 312ms (View: 266, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:25:43) [GET]
+Rendering articles/index
+Completed in 188ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:26:39) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 266ms (View: 204, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:26:41) [GET]
+Rendering articles/index
+Completed in 171ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:28:27) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 265ms (View: 202, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:28:29) [GET]
+Rendering articles/index
+Completed in 172ms (View: 157, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:28:48) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:28:48) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:28:51) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (187.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (203.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 422ms (View: 359, DB: 31) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:28:52) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:28:53) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:28:54) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:32:10) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 187, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:32:11) [GET]
+Rendering articles/index
+Completed in 218ms (View: 187, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:32:20) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:32:21) [GET]
+Rendering articles/index
+Completed in 188ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:36:03) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (15.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:36:04) [GET]
+Rendering articles/index
+Completed in 313ms (View: 297, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:36:07) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 297ms (View: 234, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:36:09) [GET]
+Rendering articles/index
+Completed in 219ms (View: 188, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:37:17) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 281ms (View: 234, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:37:19) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:37:23) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:37:23) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:45:31) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 265ms (View: 218, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:45:33) [GET]
+Rendering articles/index
+Completed in 219ms (View: 187, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:47:26) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:47:27) [GET]
+Rendering articles/index
+Completed in 172ms (View: 140, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:48:14) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 266ms (View: 172, DB: 47) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:48:16) [GET]
+Rendering articles/index
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:50:26) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 266ms (View: 187, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:50:28) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:50:43) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 157, DB: 46) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:50:45) [GET]
+Rendering articles/index
+Completed in 172ms (View: 157, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:50:49) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 265ms (View: 171, DB: 47) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:50:51) [GET]
+Rendering articles/index
+Completed in 328ms (View: 312, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:51:21) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 203, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:51:23) [GET]
+Rendering articles/index
+Completed in 343ms (View: 312, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:52:24) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 281ms (View: 234, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:52:26) [GET]
+Rendering articles/index
+Completed in 344ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:52:33) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:52:33) [GET]
+Rendering articles/index
+Completed in 172ms (View: 157, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:53:19) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:53:20) [GET]
+Rendering articles/index
+Completed in 188ms (View: 156, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:54:24) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:54:25) [GET]
+Rendering articles/index
+Completed in 171ms (View: 140, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:54:30) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 203, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:54:31) [GET]
+Rendering articles/index
+Completed in 218ms (View: 187, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:54:36) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:54:36) [GET]
+Rendering articles/index
+Completed in 171ms (View: 140, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:55:54) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:55:55) [GET]
+Rendering articles/index
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:55:58) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (47.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 188, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:55:59) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:56:08) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:56:08) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:57:06) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:57:07) [GET]
+Rendering articles/index
+Completed in 187ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 16:57:27) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 250ms (View: 187, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:57:28) [GET]
+Rendering articles/index
+Completed in 157ms (View: 125, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 16:59:09) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 172ms (View: 172, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 16:59:09) [GET]
+Rendering articles/index
+Completed in 172ms (View: 140, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 17:00:15) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:00:16) [GET]
+Rendering articles/index
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 17:00:19) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 265ms (View: 219, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:00:20) [GET]
+Rendering articles/index
+Completed in 172ms (View: 141, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 17:00:47) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 391ms (View: 188, DB: 31) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:00:49) [GET]
+Rendering articles/index
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 17:00:55) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:00:56) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-04 17:00:56) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (0.0ms)
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-04 17:00:57) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 344ms (View: 312, DB: 16) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-04 17:00:57) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 235ms (View: 204, DB: 0) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing BlogController#video (for 127.0.0.1 at 2009-12-04 17:01:00) [GET]
+Rendering template within layouts/blog
+Rendered blog/_video (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/video]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:01:01) [GET]
+Rendering articles/index
+Completed in 172ms (View: 140, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#about (for 127.0.0.1 at 2009-12-04 17:01:03) [GET]
+Rendering template within layouts/blog
+Rendered blog/_about (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/about]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:01:04) [GET]
+Rendering articles/index
+Completed in 344ms (View: 312, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 17:01:05) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (140.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 250ms (View: 202, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:01:06) [GET]
+Rendering articles/index
+Completed in 250ms (View: 204, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 17:15:57) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (141.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 281ms (View: 186, DB: 48) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:15:59) [GET]
+Rendering articles/index
+Completed in 187ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-04 17:16:00) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (0.0ms)
+Completed in 219ms (View: 16, DB: 16) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#index (for 127.0.0.1 at 2009-12-04 17:16:01) [GET]
+Rendering template within layouts/user
+Rendering pics/index
+Rendered blog/_header (0.0ms)
+Completed in 63ms (View: 16, DB: 0) | 200 OK [http://localhost/pics]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-04 17:16:01) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 297ms (View: 266, DB: 15) | 200 OK [http://localhost/pics/1/bigger.jpg]
+
+
+Processing PicsController#bigger to jpg (for 127.0.0.1 at 2009-12-04 17:16:02) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 266ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/3/bigger.jpg]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-04 17:16:02) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (0.0ms)
+Rendered pics/_index (62.0ms)
+Completed in 94ms (View: 62, DB: 0) | 200 OK [http://localhost/pics/category/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:16:03) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 375ms (View: 344, DB: 0) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:16:04) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 281ms (View: 265, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:16:04) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 250ms (View: 219, DB: 15) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:16:05) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 218ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:16:05) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 235ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:16:05) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 219ms (View: 187, DB: 0) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:16:06) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 219ms (View: 188, DB: 16) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:16:06) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 265ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:16:06) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 297ms (View: 265, DB: 16) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:16:07) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 282ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:16:07) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 266ms (View: 234, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:16:08) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 453ms (View: 375, DB: 0) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:16:10) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 500ms (View: 406, DB: 16) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:16:11) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:16:12) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 359ms (View: 297, DB: 15) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:16:12) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 359ms (View: 328, DB: 0) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:16:13) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 359ms (View: 344, DB: 0) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:16:14) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 688ms (View: 422, DB: 78) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:16:15) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 906ms (View: 828, DB: 0) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:16:17) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 1313ms (View: 1281, DB: 16) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 17:16:52) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 312ms (View: 234, DB: 47) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:16:54) [GET]
+Rendering articles/index
+Completed in 172ms (View: 140, DB: 0) | 200 OK [http://localhost/articles.rss]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-04 17:17:25) [GET]
+  Parameters: {"id"=>"23"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comment_form (16.0ms)
+Completed in 157ms (View: 78, DB: 31) | 200 OK [http://localhost/articles/23]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-04 17:17:43) [GET]
+  Parameters: {"category_id"=>"5"}
+Rendered blog/_header (0.0ms)
+Rendered pics/_index (62.0ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/pics/category/5]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:17:44) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 297ms (View: 266, DB: 15) | 200 OK [http://localhost/pics/1/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:17:45) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 375ms (View: 328, DB: 0) | 200 OK [http://localhost/pics/2/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:17:45) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 234ms (View: 219, DB: 16) | 200 OK [http://localhost/pics/4/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:17:45) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/5/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:17:46) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 219ms (View: 188, DB: 15) | 200 OK [http://localhost/pics/6/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:17:46) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 204ms (View: 188, DB: 0) | 200 OK [http://localhost/pics/7/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:17:46) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 219ms (View: 187, DB: 16) | 200 OK [http://localhost/pics/8/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:17:47) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 266ms (View: 235, DB: 0) | 200 OK [http://localhost/pics/9/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:17:47) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 297ms (View: 266, DB: 0) | 200 OK [http://localhost/pics/10/thumb.jpg]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:17:48) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 343ms (View: 328, DB: 0) | 200 OK [http://localhost/pics/11/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:17:48) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 297ms (View: 265, DB: 0) | 200 OK [http://localhost/pics/1/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:17:49) [GET]
+  Parameters: {"id"=>"2"}
+Completed in 453ms (View: 422, DB: 0) | 200 OK [http://localhost/pics/2/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:17:51) [GET]
+  Parameters: {"id"=>"4"}
+Completed in 687ms (View: 563, DB: 16) | 200 OK [http://localhost/pics/4/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:17:52) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 282ms (View: 235, DB: 0) | 200 OK [http://localhost/pics/5/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:17:53) [GET]
+  Parameters: {"id"=>"6"}
+Completed in 484ms (View: 343, DB: 0) | 200 OK [http://localhost/pics/6/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:17:54) [GET]
+  Parameters: {"id"=>"7"}
+Completed in 594ms (View: 578, DB: 0) | 200 OK [http://localhost/pics/7/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:17:55) [GET]
+  Parameters: {"id"=>"8"}
+Completed in 297ms (View: 250, DB: 0) | 200 OK [http://localhost/pics/8/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:17:55) [GET]
+  Parameters: {"id"=>"9"}
+Completed in 515ms (View: 500, DB: 0) | 200 OK [http://localhost/pics/9/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:17:56) [GET]
+  Parameters: {"id"=>"10"}
+Completed in 421ms (View: 390, DB: 16) | 200 OK [http://localhost/pics/10/avatar.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:17:57) [GET]
+  Parameters: {"id"=>"11"}
+Completed in 406ms (View: 375, DB: 15) | 200 OK [http://localhost/pics/11/avatar.jpg]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 17:18:33) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (359.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (485.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 922ms (View: 737, DB: 138) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:18:35) [GET]
+Rendering articles/index
+Completed in 203ms (View: 172, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 17:18:38) [GET]
+  Parameters: {"page"=>"2"}
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 281ms (View: 234, DB: 0) | 200 OK [http://localhost/?page=2]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:18:39) [GET]
+Rendering articles/index
+Completed in 250ms (View: 219, DB: 0) | 200 OK [http://localhost/articles.rss]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-04 17:18:40) [GET]
+  Parameters: {"id"=>"13"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comment_form (15.0ms)
+Completed in 265ms (View: 219, DB: 0) | 200 OK [http://localhost/articles/13]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 17:18:52) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (156.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 281ms (View: 235, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:18:53) [GET]
+Rendering articles/index
+Completed in 234ms (View: 187, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2009-12-04 17:19:31) [GET]
+  Parameters: {"id"=>"6"}
+Rendering template within layouts/category
+Rendering categories/show
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://localhost/categories/6]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2009-12-04 17:19:51) [GET]
+  Parameters: {"id"=>"5"}
+Rendering template within layouts/category
+Rendering categories/show
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/categories/5]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2009-12-04 17:19:54) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/category
+Rendering categories/show
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/categories/3]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 17:25:07) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:25:08) [GET]
+Rendering articles/index
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 17:25:16) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 250ms (View: 188, DB: 15) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:25:18) [GET]
+Rendering articles/index
+Completed in 390ms (View: 203, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing PicsController#picategory (for 127.0.0.1 at 2009-12-04 17:25:28) [GET]
+  Parameters: {"category_id"=>"6"}
+Rendered blog/_header (0.0ms)
+Rendered pics/_index (47.0ms)
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://localhost/pics/category/6]
+
+
+Processing PicsController#thumb to jpg (for 127.0.0.1 at 2009-12-04 17:25:29) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 328ms (View: 281, DB: 16) | 200 OK [http://localhost/pics/3/thumb.jpg]
+
+
+Processing PicsController#avatar to jpg (for 127.0.0.1 at 2009-12-04 17:25:29) [GET]
+  Parameters: {"id"=>"3"}
+Completed in 250ms (View: 219, DB: 0) | 200 OK [http://localhost/pics/3/avatar.jpg]
+
+
+Processing BlogController#about (for 127.0.0.1 at 2009-12-04 17:25:49) [GET]
+Rendering template within layouts/blog
+Rendered blog/_about (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/about]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 17:25:49) [GET]
+Rendering articles/index
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 18:06:05) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (844.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (109.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (437.0ms)
+Completed in 2000ms (View: 1750, DB: 78) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 18:06:10) [GET]
+Rendering articles/index
+Completed in 218ms (View: 187, DB: 0) | 200 OK [http://localhost/articles.rss]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-04 18:06:13) [GET]
+  Parameters: {"id"=>"23"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comment_form (31.0ms)
+Completed in 406ms (View: 359, DB: 0) | 200 OK [http://localhost/articles/23]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-04 18:06:25) [GET]
+  Parameters: {"id"=>"13"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comments_list (15.0ms)
+Rendered comments/_comment_form (0.0ms)
+Completed in 125ms (View: 78, DB: 15) | 200 OK [http://localhost/articles/13]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 22:01:51) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (1297.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (672.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (578.0ms)
+Completed in 3250ms (View: 2954, DB: 109) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 22:01:57) [GET]
+Rendering articles/index
+Completed in 265ms (View: 218, DB: 16) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 22:02:16) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (0.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 22:02:17) [GET]
+Rendering articles/index
+Completed in 203ms (View: 187, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 23:07:44) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (187.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (46.0ms)
+Completed in 609ms (View: 437, DB: 125) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 23:07:46) [GET]
+Rendering articles/index
+Completed in 391ms (View: 329, DB: 15) | 200 OK [http://localhost/articles.rss]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-04 23:07:47) [GET]
+  Parameters: {"id"=>"23"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comments_list (15.0ms)
+Rendered comments/_comment_form (171.0ms)
+Completed in 625ms (View: 563, DB: 32) | 200 OK [http://localhost/articles/23]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-04 23:08:07) [GET]
+  Parameters: {"id"=>"13"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comments_list (0.0ms)
+Rendered comments/_comment_form (15.0ms)
+Completed in 156ms (View: 77, DB: 16) | 200 OK [http://localhost/articles/13]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 23:08:28) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (171.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (94.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 344ms (View: 234, DB: 47) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 23:08:30) [GET]
+Rendering articles/index
+Completed in 438ms (View: 203, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 23:08:30) [GET]
+Rendering template within layouts/blog
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #5 of app/views/blog/_note.html.erb:
+2:   <ul>
+3:     <li><h2>文章列表</h2></li>
+4:   <ul>
+5:   <% article_link do -%>
+6:   <ul class="article_info">
+7:     <li><%= link_to ""%></li>
+8:   </ul>
+
+    app/views/blog/_note.html.erb:5:in `article_link'
+    app/views/blog/_note.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/blog_controller.rb:26:in `note'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (313.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-04 23:08:36) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 23:08:36) [GET]
+Rendering articles/index
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 23:15:09) [GET]
+Rendering template within layouts/blog
+
+ActionView::TemplateError (undefined local variable or method `article' for #<ActionView::Base:0x658a164>) on line #7 of app/views/blog/_note.html.erb:
+4:   <ul>
+5:   <% article_link(@articles) do -%>
+6:   <ul class="article_info">
+7:     <li class="article_title"><%= link_to "article.title",article%></li>
+8:     <li class="article_content"><%= article.article_content %></li>
+9:     <li class="article_content"><%= link_to "More",article %>
+10:   </ul>
+
+    app/views/blog/_note.html.erb:7
+    app/helpers/blog_helper.rb:19:in `article_link'
+    app/helpers/blog_helper.rb:18:in `each'
+    app/helpers/blog_helper.rb:18:in `article_link'
+    app/views/blog/_note.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/blog_controller.rb:27:in `note'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 23:16:53) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (31.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 266ms (View: 235, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 23:16:55) [GET]
+Rendering articles/index
+Completed in 234ms (View: 203, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 23:17:14) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (32.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 94ms (View: 62, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 23:17:15) [GET]
+Rendering articles/index
+Completed in 219ms (View: 172, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 23:18:26) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (32.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 93ms (View: 62, DB: 0) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 23:18:27) [GET]
+Rendering articles/index
+Completed in 422ms (View: 391, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#note (for 127.0.0.1 at 2009-12-04 23:18:46) [GET]
+Rendering template within layouts/blog
+Rendered blog/_note (31.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 93ms (View: 47, DB: 15) | 200 OK [http://localhost/notes]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 23:18:47) [GET]
+Rendering articles/index
+Completed in 219ms (View: 188, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-04 23:25:09) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (172.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (78.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 563ms (View: 265, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-04 23:25:10) [GET]
+Rendering articles/index
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/articles.rss]

@@ -1,0 +1,640 @@
+# Logfile created on Thu Dec 24 22:26:39 +0800 2009 by /
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-24 22:37:01) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (1125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+
+ActionView::TemplateError (undefined method `calendar_date_select_tag' for #<ActionView::Base:0x69cbf20>) on line #83 of app/views/blog/_sidebar.html.erb:
+80: </div>
+81: <!--
+82: <div id="calender" style="background-color: #80FFFF;">
+83: 	#<%= calendar_date_select_tag "e_date_and_time", nil, :embedded => true, :time => true %>
+84: </div>
+85: -->
+
+    app/views/blog/_sidebar.html.erb:83
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/views/blog/index.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (297.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 22:37:08) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-24 22:38:09) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (93.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (15.0ms)
+Completed in 500ms (View: 437, DB: 32) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-24 22:38:12) [GET]
+Rendering articles/index
+Completed in 234ms (View: 187, DB: 31) | 200 OK [http://localhost/articles.rss]
+
+
+Processing SessionsController#login (for 127.0.0.1 at 2009-12-24 22:38:36) [GET]
+Rendering template within layouts/user
+Rendering sessions/login
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/login]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2009-12-24 22:38:49) [GET]
+  Parameters: {"id"=>"24"}
+Rendering template within layouts/user
+Rendering articles/show
+Rendered comments/_comment_form (31.0ms)
+Completed in 187ms (View: 109, DB: 47) | 200 OK [http://localhost/articles/24]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-24 22:39:09) [GET]
+Rendering articles/index
+Completed in 375ms (View: 203, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-24 23:11:23) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (687.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (16.0ms)
+Completed in 875ms (View: 812, DB: 47) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-24 23:11:25) [GET]
+Rendering articles/index
+Completed in 422ms (View: 391, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing SessionsController#login (for 127.0.0.1 at 2009-12-24 23:11:27) [GET]
+Rendering template within layouts/user
+Rendering sessions/login
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-24 23:11:35) [POST]
+  Parameters: {"commit"=>"登录", "authenticity_token"=>"I5IjA8KD+JxoY6+8K3bx1R6CiGvb3AqwncJmobxSaIE=", "login"=>"woshizsb", "password"=>"170523402"}
+Failed login for 'woshizsb' from 127.0.0.1 at Thu Dec 24 15:11:35 UTC 2009
+Rendering template within layouts/user
+Rendering sessions/login
+Completed in 234ms (View: 0, DB: 140) | 200 OK [http://localhost/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-24 23:11:45) [POST]
+  Parameters: {"commit"=>"登录", "authenticity_token"=>"I5IjA8KD+JxoY6+8K3bx1R6CiGvb3AqwncJmobxSaIE=", "login"=>"zshuaibin", "password"=>"170523402"}
+Redirected to http://localhost:3000/users/1
+Completed in 47ms (DB: 0) | 302 Found [http://localhost/session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:11:45) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (undefined method `each_pair' for #<Array:0x69efe20>) on line #6 of app/views/users/show.html.erb:
+3: </div>
+4: <div id="managearticles">
+5:   <% table_for(:caption => '文章列表:') do %>
+6:     <% tr(1,["文章标题","分类","Tag","日期","修改","删除",true])%>
+7:   <% end %>
+8: </div>
+9: <div id="managepics">
+
+    app/views/users/show.html.erb:6
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:13:12) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+ERROR: compiling _run_erb_app47views47users47show46html46erb RAISED compile error
+E:/zblog/app/views/users/show.html.erb:6: syntax error, unexpected ',', expecting tASSOC
+@output_buffer.concat "    ";  tr(2,:class => "haha",["one","two",true],["o","t"]); @output_buffer.concat "\n"
+                                                                        ^
+E:/zblog/app/views/users/show.html.erb:6: syntax error, unexpected ')', expecting kEND
+@output_buffer.concat "    ";  tr(2,:class => "haha",["one","two",true],["o","t"]); @output_buffer.concat "\n"
+                                                                                  ^
+Function body:           def _run_erb_app47views47users47show46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div class=\"flashshow\">\n"
+@output_buffer.concat "  "; @output_buffer.concat(( flash[:notice]).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "<div id=\"managearticles\">\n"
+@output_buffer.concat "  ";  table_for(:caption => '文章列表:') do ; @output_buffer.concat "\n"
+@output_buffer.concat "    ";  tr(2,:class => "haha",["one","two",true],["o","t"]); @output_buffer.concat "\n"
+@output_buffer.concat "  ";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "<div id=\"managepics\">\n"
+@output_buffer.concat "  \n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "<div id=\"manageshare\">\n"
+@output_buffer.concat "  \n"
+@output_buffer.concat "</div>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+
+Backtrace: E:/zblog/app/views/users/show.html.erb:17:in `compile!'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+D:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.14/lib/haml/helpers/action_view_mods.rb:13:in `render'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+D:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.14/lib/haml/helpers/action_view_mods.rb:13:in `render'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+D:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+D:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.14/rails/../lib/sass/plugin/rails.rb:19:in `process'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+D:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+D:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+D:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+D:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+D:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+D:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+E:/zblog/app/views/users/show.html.erb:6: syntax error, unexpected ',', expecting tASSOC
+@output_buffer.concat "    ";  tr(2,:class => "haha",["one","two",true],["o","t"]); @output_buffer.concat "\n"
+                                                                        ^
+E:/zblog/app/views/users/show.html.erb:6: syntax error, unexpected ')', expecting kEND
+@output_buffer.concat "    ";  tr(2,:class => "haha",["one","two",true],["o","t"]); @output_buffer.concat "\n"
+                                                                                  ^) on line #6 of app/views/users/show.html.erb:
+3: </div>
+4: <div id="managearticles">
+5:   <% table_for(:caption => '文章列表:') do %>
+6:     <% tr(2,:class => "haha",["one","two",true],["o","t"])%>
+7:   <% end %>
+8: </div>
+9: <div id="managepics">
+
+    app/views/users/show.html.erb:17:in `compile!'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (32.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:14:35) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-24 23:17:29) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (187.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (94.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (640.0ms)
+Completed in 1000ms (View: 828, DB: 109) | 200 OK [http://localhost/]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:19:51) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (undefined method `each_pair' for ["hha", "haha"]:Array) on line #6 of app/views/users/show.html.erb:
+3: </div>
+4: <div id="managearticles">
+5:   <% table_for(:caption => '文章列表:') do %>
+6:     <% tr 1,["hha","haha"]%>
+7:   <% end %>
+8: </div>
+9: <div id="managepics">
+
+    app/views/users/show.html.erb:6
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:20:17) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-24 23:24:46) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (704.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (62.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (47.0ms)
+Completed in 937ms (View: 845, DB: 30) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-24 23:24:49) [GET]
+Rendering articles/index
+Completed in 422ms (View: 391, DB: 0) | 200 OK [http://localhost/articles.rss]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2009-12-24 23:24:50) [GET]
+Redirected to http://localhost:3000/
+Completed in 47ms (DB: 0) | 302 Found [http://localhost/logout]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-12-24 23:24:51) [GET]
+Rendering template within layouts/blog
+Rendering blog/index
+Rendered articles/_articles_table (125.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47blog47_sidebar46html46erb_locals_categories_object_sidebar at E:/zblog/app/views/blog/_sidebar.html.erb:78)
+Rendered blog/_sidebar (63.0ms)
+DEPRECATION WARNING: formatted_articles_url() has been deprecated. Please pass format to the standard articles_url method instead.. (called from _run_erb_app47views47layouts47blog46html46erb at E:/zblog/app/views/layouts/blog.html.erb:7)
+Rendered blog/_header (0.0ms)
+Completed in 219ms (View: 188, DB: 16) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from E:/zblog/app/controllers/articles_controller.rb:3)
+
+
+Processing ArticlesController#index to rss (for 127.0.0.1 at 2009-12-24 23:24:52) [GET]
+Rendering articles/index
+Completed in 359ms (View: 172, DB: 15) | 200 OK [http://localhost/articles.rss]
+
+
+Processing SessionsController#login (for 127.0.0.1 at 2009-12-24 23:24:53) [GET]
+Rendering template within layouts/user
+Rendering sessions/login
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-24 23:25:00) [POST]
+  Parameters: {"commit"=>"登录", "authenticity_token"=>"lhof7jOufnc833I1X62ib/nccE03uV8h4LHC8OFQOwY=", "login"=>"zshuaibin", "password"=>"170523402"}
+Redirected to http://localhost:3000/users/1
+Completed in 47ms (DB: 15) | 302 Found [http://localhost/session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:25:00) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (undefined method `each_pair' for ["hha", "haha"]:Array) on line #6 of app/views/users/show.html.erb:
+3: </div>
+4: <div id="managearticles">
+5:   <% table_for(:caption => '文章列表:') do %>
+6:     <% tr 1,["hha","haha"]%>
+7:   <% end %>
+8: </div>
+9: <div id="managepics">
+
+    app/views/users/show.html.erb:6
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:26:42) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+Completed in 218ms (View: 172, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:50:16) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (undefined method `create_at' for #<Article:0x694653c>) on line #8 of app/views/users/show.html.erb:
+5:   <% table_for(:caption => '文章列表:') do %>
+6:     <% tr(1,{},["文章标题","分类","Tag","日期","修改","删除",true]) %>
+7:     <% @articles.each do |article| %>
+8:       <% tr(1,{},[article.title,article.category_id,article.tag_list,article.create_at,"",""])%>
+9:     <% end %>
+10:   <% end %>
+11: </div>
+
+    app/views/users/show.html.erb:8
+    app/views/users/show.html.erb:7:in `each'
+    app/views/users/show.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (360.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:50:27) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (E:/zblog/vendor/plugins/tool_box/lib/tool_helpers.rb:139:in `create_tag': the value of column must be string) on line #8 of app/views/users/show.html.erb:
+5:   <% table_for(:caption => '文章列表:') do %>
+6:     <% tr(1,{},["文章标题","分类","Tag","日期","修改","删除",true]) %>
+7:     <% @articles.each do |article| %>
+8:       <% tr(1,{},[article.title,article.category_id,article.tag_list,article.created_at,"",""])%>
+9:     <% end %>
+10:   <% end %>
+11: </div>
+
+    (eval):1:in `tr'
+    app/views/users/show.html.erb:8
+    app/views/users/show.html.erb:7:in `each'
+    app/views/users/show.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (360.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:52:18) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #8 of app/views/users/show.html.erb:
+5:   <% table_for(:caption => '文章列表:') do %>
+6:     <% tr(1,{},["文章标题","分类","Tag","日期","修改","删除",true]) %>
+7:     <% @articles.each do |article| %>
+8:       <% tr do %>
+9:         <%= t_td(article.title) %>
+10:       <% end%>
+11:     <% end %>
+
+    app/views/users/show.html.erb:8:in `tr'
+    app/views/users/show.html.erb:8
+    app/views/users/show.html.erb:7:in `each'
+    app/views/users/show.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (438.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:52:56) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+Completed in 47ms (View: 16, DB: 15) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:57:24) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (undefined method `cgname' for 7:Fixnum) on line #10 of app/views/users/show.html.erb:
+7:     <% @articles.each do |article| %>
+8:       <% t_tr do %>
+9:         <%= t_td(article.title) %>
+10:         <%= t_td(article.category_id.cgname) %>
+11:         <%= t_td(article.tag_list) %>
+12:         <%= t_td(article.created_at) %>
+13:         <%= t_td() %>
+
+    app/views/users/show.html.erb:10
+    app/views/users/show.html.erb:8
+    app/views/users/show.html.erb:7:in `each'
+    app/views/users/show.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:58:07) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (the value of column must be string) on line #10 of app/views/users/show.html.erb:
+7:     <% @articles.each do |article| %>
+8:       <% t_tr do %>
+9:         <%= t_td(article.title) %>
+10:         <%= t_td(article.category_id) %>
+11:         <%= t_td(article.tag_list) %>
+12:         <%= t_td(article.created_at) %>
+13:         <%= t_td() %>
+
+    app/views/users/show.html.erb:10
+    app/views/users/show.html.erb:8
+    app/views/users/show.html.erb:7:in `each'
+    app/views/users/show.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:58:20) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (the value of column must be string) on line #10 of app/views/users/show.html.erb:
+7:     <% @articles.each do |article| %>
+8:       <% t_tr do %>
+9:         <%= t_td(article.title) %>
+10:         <%= t_td(article.category_id) %>
+11:         <%= t_td(article.tag_list) %>
+12:         <%= t_td(article.created_at) %>
+13:       <% end%>
+
+    app/views/users/show.html.erb:10
+    app/views/users/show.html.erb:8
+    app/views/users/show.html.erb:7:in `each'
+    app/views/users/show.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:59:09) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+
+ActionView::TemplateError (the value of column must be string) on line #11 of app/views/users/show.html.erb:
+8:       <% t_tr do %>
+9:         <%= t_td(article.title) %>
+10:         <%= t_td('article.category_id') %>
+11:         <%= t_td(article.tag_list) %>
+12:         <%= t_td('article.created_at') %>
+13:       <% end%>
+14:     <% end %>
+
+    app/views/users/show.html.erb:11
+    app/views/users/show.html.erb:8
+    app/views/users/show.html.erb:7:in `each'
+    app/views/users/show.html.erb:7
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:89:in `capture'
+    app/views/users/show.html.erb:5
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.14) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:59:20) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+Completed in 157ms (View: 125, DB: 16) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-24 23:59:39) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/user
+Rendering users/show
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/users/1]

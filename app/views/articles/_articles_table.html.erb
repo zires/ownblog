@@ -1,0 +1,26 @@
+<% @articles.each do |article| %>
+<ul class="contentable">
+  <ul>
+    <li class="titlestyle"><%=link_to "#{article.title}",article %></li>
+    <li class="contentdate"><%=h format_date(article.created_at) %></li>
+  </ul>
+  <li class="contentstyle">
+    <p><%= readmore(article.article_content) %></p>
+  </li>
+  <% if article.article_content.size >= 900 -%>
+    <li class="readmore">
+      <%= link_to "...... Read More",article%>  
+    </li>
+  <% end %>
+  <li class ="contentct">
+  		&lt;Category:&nbsp;<%= link_to "#{article.category.cgname}",article.category %>&gt;&lt;Tag:&nbsp;<%=h article.tag_list %>&gt;</li>
+  <li class = "contentcomment">
+    <%= find_amount_of_comments(article) %>
+    <%= link_to "comments",article,:popup => true %>
+  </li>
+</ul>
+<% end %>
+<%= will_paginate @articles %>
+<div class="page_info">
+  总共<%= @page_info%>页,当前第<%= @articles.current_page %>页
+</div>

@@ -1,0 +1,47 @@
+<div class="flashshow">
+  <%= flash[:notice]%>
+</div>
+<div id="managearticles">
+  <% table_for(:caption => '文章列表:',:border => '1') do %>
+    <% tr(1,{},["文章标题","分类","Tag","日期","修改","删除",true]) %>
+    <% @articles.each do |article| %>
+      <% t_tr do %>
+        <% t_td(article.title) %>
+        <% t_td(article.category.cgname) %>
+        <% t_td(article.tag_list.to_s) %>
+        <% t_td(article.created_at.to_s) %>
+        <% t_td(link_to "Edit",edit_article_path(article)) %>
+        <% t_td(link_to "Delete",article,:confirm => "删除不可逆,你确定吗?") %>
+      <% end%>
+    <% end %>
+  <% end %>
+  <p><%= link_to "新建文章",new_article_path %></p>
+</div>
+<div id="managepics">
+  <% table_for(:caption => '图片列表:',:border => '1') do %>
+    <% tr(1,{},["缩略图","图片标题","图片描述","分类","删除",true]) %>
+    <% @pics.each do |pic| %>
+      <% t_tr do %>
+        <% t_td(image_tag thumb_pic_path(pic,:jpg)) %>
+        <% t_td(pic.title) %>
+        <% t_td(pic.description) %>
+        <% t_td(pic.pic_category_id.to_s) %>
+        <% t_td(link_to "Delete",pic,:confirm => "删除不可逆,你确定吗?") %>
+      <% end%>
+    <% end %>
+  <% end %>
+  <p><%= link_to "新图片",new_pic_path %></p>
+</div>
+<div id="manageshare">
+  <% table_for(:caption => '下载列表:',:border => '1') do %>
+    <% tr(1,{},["资源名称","资源大小","资源类型",true]) %>
+    <% @shares.each do |share| %>
+      <% t_tr do %>
+        <% t_td(share.stuff_file_name) %>
+        <% t_td(share.stuff_file_size.to_s) %>
+        <% t_td(share.stuff_content_type) %>
+      <% end%>
+    <% end %>
+  <% end %>
+  <p><%= link_to "上传文件",new_shares_path %></p>
+</div>

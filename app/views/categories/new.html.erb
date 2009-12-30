@@ -1,0 +1,11 @@
+<h1>新标签</h1>
+<% form_for(:category,:url => categories_path) do |f| -%>
+ 		<p>
+  		<%= f.label :category %>
+  		<%= f.text_field :cgname %>
+		</p>
+<p>
+    <%= submit_tag 'Create' %>
+</p>
+
+<% end -%>

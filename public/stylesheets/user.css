@@ -1,0 +1,168 @@
+body {
+  background-color: #222222;
+  font-family:"Lucida Grande",Verdana,sans-serif;
+	font-size:13px;
+	line-height:1.3em;
+}
+body ul li{
+  list-style: none;
+}
+body a {
+  text-decoration:none;	
+}
+body a:hover{
+  text-decoration: underline;
+  
+}
+/*-------------------login------------------*/
+#userlogin {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  background: #66B9F9;
+  color: #950000;
+  font-size :1.2em;
+}
+#userlogin ul{
+  padding: 5px 20px;
+}
+#userlogin ul li{
+  padding: 3px;
+}
+#login {
+  width: 150px;
+  position: relative;
+  left: 15px;
+}
+#password{
+  width: 150px;
+  position: relative;
+  left: 30px;
+}
+#return{
+  position: relative;
+  float: right;
+  top: -28px;
+}
+#flash{
+  color: #FF0000;
+  position: relative;
+  left: 550px;
+  top: 200px;
+  width: 250px;
+}
+.flashshow{
+  color: #FF0000;
+}
+/**********************header****************/
+#header {
+	background-color:#0F1923;
+	height:120px;
+	padding:0 40px;
+	position: relative;
+	top: -5px;
+	width: 820px;
+	margin:0 auto;
+	border-bottom: 1px solid #FFFF00;
+}
+#header img{
+	margin-top: 28px;
+	width:240px;
+}
+
+#linkmenu {
+	position:relative;
+	left:280px;
+	width:500px;
+	margin:0;
+	padding:0;
+	top:-45px;
+}
+#linkmenu li {
+	float: left;
+	list-style: none;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+#linkmenu li a:hover{
+	text-decoration:underline;	
+}
+
+#linkmenu li a{
+	color:#FFFFFF;
+	display:block;
+	font-family:"Trebuchet MS",Arial,sans-serif;
+	font-size:19px;
+	font-weight:bold;
+	height:43px;
+	line-height:40px;
+	padding:0 14px;
+	text-decoration:none;
+	text-shadow:0 1px 1px #213454;
+}
+
+#linkmenu .active_tab {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../../images/tab_right.png) no-repeat scroll center center;
+}
+
+#linkmenu .active_tab a:hover {
+	text-decoration:none;
+}
+#loginout {
+	position: relative;
+	float: right;
+	top: -95px;
+	color: #E04E1E;
+	font-size: 200%;
+}
+#loginout a:link {
+	text-decoration: none;
+	color: #E04E1E;
+}
+#loginout a:hover {
+	text-decoration: underline;
+	color: #FFFF00;
+}
+#loginout a:visited {
+	text-decoration: none;
+}
+/*------------------------------managearticles----------------------*/
+#managearticles {
+  background-color: #FFF;
+  width: 1200px;
+}
+/*------------------------------managepics----------------------*/
+#managepics {
+  background-color: #FFF;
+  width: 1200px;
+}
+/*------------------------------manageshare----------------------*/
+#manageshare {
+  background-color: #FFF;
+  width: 1200px;
+}
+/*------------------------------picate----------------------*/
+#page {
+  width: 400px;
+  position: relative;
+  left: 240px;
+}
+#picgname {
+  color: #FFF;
+}
+/*------------------------------createarticle----------------------*/
+#createarticle {
+  position: absolute;
+  left: 320px;
+  width: 800px;
+}
+#createarticle h1{
+  color: #FFF;
+}

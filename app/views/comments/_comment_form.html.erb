@@ -1,0 +1,24 @@
+<!--新建一个comment-->
+<!--引入编辑器nicEdit和简单验证-->
+<%= javascript_include_tag 'nicEdit' %>
+<script type="text/javascript" charset="utf-8">
+  var area2;
+  function addArea2() {
+	area2 = new nicEditor({fullPanel : true}).panelInstance('comment_comment');
+}
+  function removeArea2() {
+	area2.removeInstance('comment_comment');
+}
+</script>
+<!--验证有效性-->
+<div id="newcomment">
+  <ul style = "padding: 0;">  
+	<li style = "text-align: left;padding: 10px 0px;font-family: clarendon;font-size: 1.4em;margin:10px 10px;color: #7D7E71;">leave a comment!</li>
+	<ul style = "padding: 0 10px;">
+	  <% remote_form_for :comment, :url=> article_comments_path(params[:id]) do |f| %>
+		<li style = "font-size: 1.3em;padding-bottom: 5px;">name:&nbsp;&nbsp;<%= f.text_field :title %></li>
+		<li style = "font-size: 1.3em;">comment:<br/><p><%= f.text_area :comment, :style =>"height: 200px;vertical-align:middle;width: 500px;" %></p><a onClick="addArea2();">更多选项</a>&nbsp;or&nbsp;<a onClick="removeArea2();">恢复默认</a></li>
+		<li style = "position: relative;right: 25px;top: -15px;"><%= image_submit_tag "botton.png", :style => "float: right;",:id => "submit"%></li>
+		<% end-%>
+	</ul>
+</div>

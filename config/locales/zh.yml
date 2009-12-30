@@ -1,0 +1,14 @@
+zh:
+  activerecord:
+    models:
+      user: "用户"
+    attributes:
+      user:
+        login: "用户名"
+        email: "邮箱"
+        password: "密码"
+          
+  article:
+    new:
+      title: "新文章"
+      create: "创建"

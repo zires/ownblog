@@ -1,0 +1,13 @@
+<div id="picate">
+  <%= render :partial => "blog/header"%>
+  <div id="page">
+    <% for picategory in @picategories do -%>
+    <% @category_id = picategory.id -%>
+    <% @pic = Pic.find(:first,:conditions =>["pic_category_id = ?",@category_id]) -%>
+    <ul>
+      <li id="picgname"><%= picategory.cgname %></li>
+      <li><% image_link(picategory_path(@category_id),bigger_pic_path(@pic.id,:jpg),:border =>'0',:target => '_blank') %></li>
+    </ul>
+    <% end -%>
+  </div>
+</div>
